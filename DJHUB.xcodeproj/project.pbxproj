@@ -1,0 +1,1651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1A000000000000000000001 /* DJHUBAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A000000000000000000002 /* DJHUBAPIClient.swift */; };
+		D1A000000000000000000003 /* DJHUBModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A000000000000000000004 /* DJHUBModels.swift */; };
+		D1A000000000000000000005 /* DJHUBPosters in Resources */ = {isa = PBXBuildFile; fileRef = D1A000000000000000000006 /* DJHUBPosters */; };
+		E92000000000000000000001 /* RovePlayer新片入库推送配置教程.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E92000000000000000000002 /* RovePlayer新片入库推送配置教程.pdf */; };
+		A500000000000000000001 /* ZCOOLQingKeHuangYou-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A500000000000000000002 /* ZCOOLQingKeHuangYou-Regular.ttf */; };
+		A500000000000000000010 /* ZCOOLXiaoWei-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A500000000000000000020 /* ZCOOLXiaoWei-Regular.ttf */; };
+		A500000000000000000011 /* MaShanZheng-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A500000000000000000021 /* MaShanZheng-Regular.ttf */; };
+		A500000000000000000012 /* ZhiMangXing-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A500000000000000000022 /* ZhiMangXing-Regular.ttf */; };
+		A500000000000000000013 /* LongCang-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A500000000000000000023 /* LongCang-Regular.ttf */; };
+		A500000000000000000014 /* ZCOOLKuaiLe-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A500000000000000000024 /* ZCOOLKuaiLe-Regular.ttf */; };
+		00207DD924C3204103D0111D /* CloudSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ECE31B4742AA4B64B7C86 /* CloudSyncService.swift */; };
+		011AB6B677667ADE8D907804 /* CCTV2.png in Resources */ = {isa = PBXBuildFile; fileRef = C88C3983C038CF41AA06A4CA /* CCTV2.png */; };
+		025C3FE27EADD980EB5C62B1 /* RoadStreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0ACBA75F1D546E2DB4DFA2 /* RoadStreamApp.swift */; };
+		D90000000000000000000001 /* DuoPlayerAdaptation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90000000000000000000002 /* DuoPlayerAdaptation.swift */; };
+		0555F10D2C658C967C9F9867 /* 风云剧场-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 40428B4EB6B454D6EC1ECF0E /* 风云剧场-light.png */; };
+		0A45B71BE254AC6AE37ED1C5 /* n_湖南卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = F1316E5F9A398F8485E939A5 /* n_湖南卫视.png */; };
+		0A72AA70B6E2C7A83A9B1BC7 /* n_四海钓鱼.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5C950FB524F1B2174CBBA3 /* n_四海钓鱼.png */; };
+		0BB0FC78F262AE9EF25FDFF2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB22ABB14038024D4EE96DA0 /* SettingsView.swift */; };
+		0D1A5E87B21F4C1E913DA001 /* DLNACastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1A5E87B21F4C1E913DA002 /* DLNACastService.swift */; };
+		0E7B4C91A52D4D31A125A001 /* LiveVideoSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B4C91A52D4D31A125A002 /* LiveVideoSurface.swift */; };
+		0F079D52693392E2CB39A42D /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CB16F387326006C32BB57 /* FavoritesView.swift */; };
+		124F2947C17528E45410964F /* 电视指南.png in Resources */ = {isa = PBXBuildFile; fileRef = 36751872EC236DC757015158 /* 电视指南.png */; };
+		1811F8B702C7F4ED48CB823D /* n_IPTV怀旧剧场.png in Resources */ = {isa = PBXBuildFile; fileRef = E85BF30C040821B6B786D46E /* n_IPTV怀旧剧场.png */; };
+		1B73D01BFAA4E1953C69DEB4 /* CCTV15.png in Resources */ = {isa = PBXBuildFile; fileRef = 392E7C5430F2B6A4FACD2B2D /* CCTV15.png */; };
+		1CB4194C7DA341B7B567C578 /* 央视台球-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6B4745026887EE9F337D83 /* 央视台球-light.png */; };
+		1D4A13130BCF7F836229670B /* SamplePlaylist.m3u in Resources */ = {isa = PBXBuildFile; fileRef = 21769107CBBF2A6839D6E7F2 /* SamplePlaylist.m3u */; };
+		1E08B79FDBE1F6955A8935D6 /* n_福建新闻.png in Resources */ = {isa = PBXBuildFile; fileRef = 441A07163ADFB49BF4984EFA /* n_福建新闻.png */; };
+		1E4D24ADA8A6769C5D7D48C8 /* n_宁夏卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 402FB9F65B7534CFE37F5F31 /* n_宁夏卫视.png */; };
+		1E867696C4D02FAF4F462A15 /* CCTV4K.png in Resources */ = {isa = PBXBuildFile; fileRef = AC8940F29C1E56874A783FC7 /* CCTV4K.png */; };
+		2009088EDD8AD7E504D5F43A /* 世界地理-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B40E84EE46799564A187721 /* 世界地理-light.png */; };
+		20802D7E3FAA4C4E265C790B /* n_深圳卫视4K.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E683DD37415AFE6D851BB5 /* n_深圳卫视4K.png */; };
+		20D430668BC1DF6D982FAD2B /* 央视台球.png in Resources */ = {isa = PBXBuildFile; fileRef = F78752F43B8B3900CC4087A1 /* 央视台球.png */; };
+		236F7AF08384009B8B87947A /* CCTV2-light.png in Resources */ = {isa = PBXBuildFile; fileRef = F95BC77A4C930BF873F2ECEA /* CCTV2-light.png */; };
+		237BBD0DC345CF96B2F42425 /* n_江苏卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 05CE0D33631CA820B52DA5C6 /* n_江苏卫视.png */; };
+		242C05253AF9F9527A0F384E /* n_CHC动作电影.png in Resources */ = {isa = PBXBuildFile; fileRef = D7735051BC4DE6DB14836CC7 /* n_CHC动作电影.png */; };
+		2697AAF626494915D35DC8FC /* n_福建少儿.png in Resources */ = {isa = PBXBuildFile; fileRef = E46E92E5D468E9284A5C0FC8 /* n_福建少儿.png */; };
+		26EFE19B23FCBB992DC182EC /* n_广东珠江.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A4974A6CC88A3E299331FD /* n_广东珠江.png */; };
+		2AABAA76D12D51B966D81B68 /* n_河南卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9130187C27F8E7A564EE40 /* n_河南卫视.png */; };
+		2DF4F15052F105C6670C4203 /* CCTV17.png in Resources */ = {isa = PBXBuildFile; fileRef = 78C4EB45E23706D10CA51DDF /* CCTV17.png */; };
+		2F9CD2B449BA5FC04821D4AD /* n_四川卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 345F8E8DBA7E4AF312D64755 /* n_四川卫视.png */; };
+		3090AF8DC6E3C9F4398E3BDD /* n_广东卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 00E7EA63F541094E14F81BB8 /* n_广东卫视.png */; };
+		33D0536F94436D055AD2BCC9 /* n_BTV生活.png in Resources */ = {isa = PBXBuildFile; fileRef = 402D9D63896BC4A65F9657D4 /* n_BTV生活.png */; };
+		3530B1070226459340CBE741 /* n_湖南卫视4K.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C9C90E25132CFCB1A768FD /* n_湖南卫视4K.png */; };
+		35DF05DECFEC0556B77BF10C /* 文化精品.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB663BDBDEE4BC5BF873CE5 /* 文化精品.png */; };
+		35E685AB643C916D37A8C0A8 /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770EEBF0767782F5807DF30E /* CarPlaySceneDelegate.swift */; };
+		39A7EAAD235E2F7DB60CBD34 /* CCTV6-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B96463C3A4CF4B3CBCC94B /* CCTV6-light.png */; };
+		3A8AC9B35E1AA420E2B39CD2 /* PlaybackCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AA1C439855D2E22A28D40 /* PlaybackCoordinator.swift */; };
+		3C2699AB323BD32BC0C76BD2 /* n_广西影视.png in Resources */ = {isa = PBXBuildFile; fileRef = 3085073F2AF00A6B727F258C /* n_广西影视.png */; };
+		3C5A21B6A75F37E0D945BE47 /* n_广东体育.png in Resources */ = {isa = PBXBuildFile; fileRef = 973EED6EB52023C415B6478C /* n_广东体育.png */; };
+		3C70A348F191D5330BFFCB07 /* n_深圳卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFE29E53FA1F6A63E947E0B /* n_深圳卫视.png */; };
+		3D973563121D173C32957DED /* CCTV3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A49D2E992CC51188234F3DD /* CCTV3.png */; };
+		3F8674859341C385D72A0DD9 /* CCTV1-light.png in Resources */ = {isa = PBXBuildFile; fileRef = F46C2CF831D415FE12DCA234 /* CCTV1-light.png */; };
+		418D2F741E700EC178610C31 /* n_海南新闻.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B11B6608EC88AF919A4F4 /* n_海南新闻.png */; };
+		42395A87B1013A91A3266560 /* n_快乐垂钓.png in Resources */ = {isa = PBXBuildFile; fileRef = 89EE3880E77698465CACFC20 /* n_快乐垂钓.png */; };
+		45AB586DA60BBF3D8F7A7F24 /* M3UParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398EA122A41C1C62680138CA /* M3UParserTests.swift */; };
+		46F355FF01A38DE0C170D2A5 /* CCTV4欧洲-light.png in Resources */ = {isa = PBXBuildFile; fileRef = E0AE6DF7607CBD8CE985C2B5 /* CCTV4欧洲-light.png */; };
+		48D484CE2E94520F70E2AD65 /* n_云南卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 241D20112CF2D6B21D0E6FC2 /* n_云南卫视.png */; };
+		497B0E2D5ADE20F54C7BFBD5 /* n_广东民生.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D401509AAEAD695737A5317 /* n_广东民生.png */; };
+		4A389F1D9A50DE085A99D6C5 /* CCTV12-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F08BD23D8A6D4C29D6D2F6 /* CCTV12-light.png */; };
+		4BC25462143052C6C4D693B8 /* ChannelLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABD1505206FBF2BA151070 /* ChannelLibrary.swift */; };
+		4BFBE843B7EEF63EBCDD3139 /* n_重温经典.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA4835A992123F55402B297 /* n_重温经典.png */; };
+		4CAAAB8133CAA5316E8ECE28 /* n_武术世界.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B85353D0ABFA132FDD25 /* n_武术世界.png */; };
+		4D4824F0A3FA3B42F2CF1DA4 /* n_兵团卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = E46BEBD9DC78000C50F88C78 /* n_兵团卫视.png */; };
+		4D904D060ACE73FF89FC062A /* n_CHC影迷电影.png in Resources */ = {isa = PBXBuildFile; fileRef = D697D2871817C68B6AF02711 /* n_CHC影迷电影.png */; };
+		4DAE5648678D929FFF31C87E /* n_大湾区卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = E0D6FA6E5764AED20B7678D4 /* n_大湾区卫视.png */; };
+		4E69D58D8ADC22951C440187 /* n_天元围棋.png in Resources */ = {isa = PBXBuildFile; fileRef = 880AC00662C9C87AACCACEB5 /* n_天元围棋.png */; };
+		4F220A9E28F60A781DFF394F /* n_浙江卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 687D30C64080C455F3FD330C /* n_浙江卫视.png */; };
+		5082FA40D3318269996B1708 /* 电视指南-light.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD8E11B21430DC1DC23CE14 /* 电视指南-light.png */; };
+		50EDBDD96207CE291FB771CF /* n_陕西卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 21EC3B48B092979DB65E0C7E /* n_陕西卫视.png */; };
+		530EDEBBE07EAE3EFD1266EE /* 第一剧场-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E1D4C67BE384B2E5D5C8C69 /* 第一剧场-light.png */; };
+		53B616A01C1E2DA521109CAC /* LiveChannelPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE7CD90241AE08646D23B7D /* LiveChannelPreview.swift */; };
+		545DF61681C5F068BE489124 /* n_东方卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF460DEE72B7B8514A96684 /* n_东方卫视.png */; };
+		5565F2BF5E46DCDBAF5F3D88 /* M3UParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377CC886E92022B5C854E90 /* M3UParser.swift */; };
+		56EB605D59A7EC3C7BF4A2BB /* n_BTV科教.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A427D8AAA35249F22307F6 /* n_BTV科教.png */; };
+		572BAADCB0C0A9F3D6294C10 /* PlayerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F209A773C38621894EBDBC1 /* PlayerDetailView.swift */; };
+		E81000000000000000000001 /* RoveDanmakuCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81000000000000000000002 /* RoveDanmakuCanvasView.swift */; };
+		E81000000000000000000003 /* RoveLaunchCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81000000000000000000004 /* RoveLaunchCoverView.swift */; };
+		5AB5E61FEDA85797864251E5 /* ExternalDisplaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724C28FE2A15E0613712062 /* ExternalDisplaySceneDelegate.swift */; };
+		5B0FE24110309539531C0C44 /* n_浙江卫视4K.png in Resources */ = {isa = PBXBuildFile; fileRef = 75CC4E411CF230F815807AB0 /* n_浙江卫视4K.png */; };
+		5B19FECC9A1FA0BE6B26EE4E /* SourceCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E06B10DA073953579C896E /* SourceCenterView.swift */; };
+		5B97BD55B646D8556E9FA84E /* 兵器科技.png in Resources */ = {isa = PBXBuildFile; fileRef = EC938EBFF05993C585F9E89C /* 兵器科技.png */; };
+		5E309CE7CBEAF0FC24F7B006 /* n_卡酷少儿.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D007D90405EB0E0EA6A5FC /* n_卡酷少儿.png */; };
+		5F2032AD3D9990761F066910 /* CCTV4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FD7EB06B4A53A2B3DA78805 /* CCTV4.png */; };
+		5FD4723742A643B1D489F944 /* CCTV17-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C722B3A6384FF530FDB2D9E /* CCTV17-light.png */; };
+		62516B94E29B7A49FCECB575 /* CCTV8.png in Resources */ = {isa = PBXBuildFile; fileRef = C7FF1A784C21E2D359D828E8 /* CCTV8.png */; };
+		625545505A5FB54B63C324F7 /* n_怀旧剧场.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CA4C790A76A54A1F84A4A /* n_怀旧剧场.png */; };
+		62F8A8497FCEC572F16E98CE /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C52F904F63011C792E953F1 /* RootView.swift */; };
+		6379848EA0DFB17F73EF4034 /* 央视高网-light.png in Resources */ = {isa = PBXBuildFile; fileRef = C8848AC2F4F82EF6C564A33B /* 央视高网-light.png */; };
+		652A8CDD64E98ED37A6891DB /* 风云剧场.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24DA50850AD96B56101C0C /* 风云剧场.png */; };
+		65C0ABA100AD6250CCCC5233 /* n_BTV文艺.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DC04836498BE8ED3BFDE4BE /* n_BTV文艺.png */; };
+		68EE1FE981F3CB5116E39F3A /* MediaDeckLaunchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671A360B49E7413517576B32 /* MediaDeckLaunchService.swift */; };
+		69C6D56560815D2FBBF9804F /* n_福建综合.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DBC89D768B711E988892CE2 /* n_福建综合.png */; };
+		6CEEC5E97176CEEC051F3E86 /* 文化精品-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B64D51D8DE1AACBA4434978 /* 文化精品-light.png */; };
+		6D56A4CC646A11BF1F32053B /* CCTV7.png in Resources */ = {isa = PBXBuildFile; fileRef = 892FA939E1969C41CCC7D069 /* CCTV7.png */; };
+		6EFACDEB406457BADC47348F /* 风云音乐-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F09BE8FA62F1FE007951D2 /* 风云音乐-light.png */; };
+		6F03878B5DCA14A5ECE0C100 /* ScreenMirrorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2586B8A9B7504F964E7CA83B /* ScreenMirrorService.swift */; };
+		706FA2F36F4B649B374F54C9 /* CCTV9.png in Resources */ = {isa = PBXBuildFile; fileRef = ED320E19A90D4CF6FAB4E282 /* CCTV9.png */; };
+		73C28D42516573B1411B970D /* 怀旧剧场.png in Resources */ = {isa = PBXBuildFile; fileRef = 183E794A0143F73EE73991E8 /* 怀旧剧场.png */; };
+		74B56CAD09ADF3A25602ED97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6CD269DA7059121E253FF /* Assets.xcassets */; };
+		76A6B6E524DBEC3B46998AE1 /* 怀旧剧场-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3E565B7F593B68D25107FF /* 怀旧剧场-light.png */; };
+		76C21AC59948C7E5C3DB903A /* n_凤凰资讯.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B3648F69545F9E5E07DD92 /* n_凤凰资讯.png */; };
+		77969CF4C832102DFDAFFC6B /* n_广西新闻.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A92E92B652BCAF03A97DE7D /* n_广西新闻.png */; };
+		77CDE1ACFC39C4103F937C31 /* n_金鹰纪实.png in Resources */ = {isa = PBXBuildFile; fileRef = 776F8FDA6B912AFCD4AEC656 /* n_金鹰纪实.png */; };
+		78ADDB80A31B8198AA815044 /* n_新动漫.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5DAB71EC9836CCD63ECA3B /* n_新动漫.png */; };
+		79D9A1FFC3FD83B55E077FB9 /* CCTV3-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C61C563A9CDC9DF51943874 /* CCTV3-light.png */; };
+		7A3DB35A61A397D6C220A3A3 /* n_甘肃卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B3BD0BADA92062F483FBD3 /* n_甘肃卫视.png */; };
+		7A7D901B4FD18CE90CDB460B /* PlaylistURLImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596C4D00D4F011745F4170B /* PlaylistURLImportView.swift */; };
+		7AB81C2947A413459285E777 /* 风云音乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 8749D90C07E987D9E3C5C886 /* 风云音乐.png */; };
+		7D7EBE03F1021059B0F494AD /* CCTV16.png in Resources */ = {isa = PBXBuildFile; fileRef = A36F86EA7DB0940B7665FAB1 /* CCTV16.png */; };
+		7E7436EE0B4297F183770F7E /* n_北京卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C2331432614873381E20217 /* n_北京卫视.png */; };
+		7F0101C5445E24FFAE8F766A /* n_环球旅游.png in Resources */ = {isa = PBXBuildFile; fileRef = E7D87CC30D15009EAD667A97 /* n_环球旅游.png */; };
+		802633FCAA76A68CF8AD8907 /* CCTV11.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D0155F0C4D204D4381EDFE /* CCTV11.png */; };
+		819E41B005EC1C2214577F38 /* 上海新闻-light.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7BC7EF42EACD541B0F5937 /* 上海新闻-light.png */; };
+		81E45DB40F852FF1B381AF10 /* MediaDeckShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B44CE345F929402A7CD8DC /* MediaDeckShell.swift */; };
+		8262DC352263D1B659A964C1 /* n_福建文体.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F89BA8591A1256FE604F784 /* n_福建文体.png */; };
+		828D1B9B983AC2EC4D1102EA /* n_广东新闻.png in Resources */ = {isa = PBXBuildFile; fileRef = BA7294C130B9DFABD509B9C5 /* n_广东新闻.png */; };
+		84E358B2EB46F2F63C08FBF9 /* CCTV5-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AEAC58A16DA19FAD9C12741 /* CCTV5-light.png */; };
+		8589FEB66DEAC41A779FA835 /* CCTV5+-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FFE75E13E0AC1C80A4D23AC /* CCTV5+-light.png */; };
+		868E86682F95D9F89E2EF208 /* n_辽宁卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8DE9B996868A6D800E9FF1 /* n_辽宁卫视.png */; };
+		87A7F1C6677C33562CE2F19A /* 兵器科技-light.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8598AD4B5B97A24660B922 /* 兵器科技-light.png */; };
+		8866CCFA6FE94D4732F7206C /* CCTV11-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0E5CA058B1B9B92C634515 /* CCTV11-light.png */; };
+		92AC73649772D62F6D6B3D78 /* CCTV13-light.png in Resources */ = {isa = PBXBuildFile; fileRef = B3EB9A03835A54A0E52DC048 /* CCTV13-light.png */; };
+		9321B119D062DCE5AD6FC94B /* n_黑龙江卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C5FD4A48129C10D9EF25BE /* n_黑龙江卫视.png */; };
+		9586132BAF00B06BB28BC4C3 /* n_CCTV3D.png in Resources */ = {isa = PBXBuildFile; fileRef = B4352997788BF826D4B9DC1D /* n_CCTV3D.png */; };
+		95984AE00CEE8755508AF010 /* n_金鹰卡通.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C04C4FF9171C8120320AAC9 /* n_金鹰卡通.png */; };
+		95B9829DC83FAB324BAF1960 /* n_安徽卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = DDAE8214B3C46CF0B981E766 /* n_安徽卫视.png */; };
+		970D424BE026689435A1852C /* n_海南文旅.png in Resources */ = {isa = PBXBuildFile; fileRef = 7139A9996EE2F60166006656 /* n_海南文旅.png */; };
+		9A9B93B16103859AFFEE87B8 /* n_广东卫视4K.png in Resources */ = {isa = PBXBuildFile; fileRef = 55807E29B5BAAAEA66D7D8FD /* n_广东卫视4K.png */; };
+		9C34CBDD5F3325E3AE975FB7 /* n_广西综艺旅游.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F8C7EF3FA6C296D64BCE24 /* n_广西综艺旅游.png */; };
+		9D44F02C20A2C739268714E6 /* n_BTV财经.png in Resources */ = {isa = PBXBuildFile; fileRef = 2640075A7780932F91879725 /* n_BTV财经.png */; };
+		9D7251BE68AB5CD0AE2FC1C0 /* CCTV10-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 048269097757AED0408D3989 /* CCTV10-light.png */; };
+		9D832C77F692FF1CEDCD1200 /* CCTV14-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 544E3F4620D6BE0687A245B9 /* CCTV14-light.png */; };
+		9DA5D9B85D22C86F21514655 /* CCTV4美洲-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8C0D2B6FFB16549FD0C93B /* CCTV4美洲-light.png */; };
+		9DD47F535A671448E8660521 /* n_山东教育.png in Resources */ = {isa = PBXBuildFile; fileRef = 792C28869D8336AF7974F6F2 /* n_山东教育.png */; };
+		9E1C299343325243414DE90A /* n_三沙卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 319625A77CF6EC2F5BE5523A /* n_三沙卫视.png */; };
+		9EFB323825A32E9D9ABFCD9E /* n_湖南教育.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC0DD1F021550A46AE93430 /* n_湖南教育.png */; };
+		A0A100D828029641835D5916 /* n_天津卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D32C7FCAD6F64CC31A289DA /* n_天津卫视.png */; };
+		A100000000000000000001 /* WatchSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000000000000000011 /* WatchSyncService.swift */; };
+		A2FCCDF775EB1712396E44FB /* n_BTV新闻.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CFC48615674B74F90F4D9A0 /* n_BTV新闻.png */; };
+		A300000000000000000001 /* ProPurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A300000000000000000002 /* ProPurchaseManager.swift */; };
+		A300000000000000000003 /* ProView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A300000000000000000004 /* ProView.swift */; };
+		C76000000000000000000001 /* MinorModeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76000000000000000000002 /* MinorModeService.swift */; };
+		C77000000000000000000001 /* RoveServerFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77000000000000000000002 /* RoveServerFeatures.swift */; };
+		A400000000000000000001 /* LocalVideoLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A400000000000000000002 /* LocalVideoLibraryView.swift */; };
+		A66C87010A041EBC1CA809A0 /* n_江西卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B3CAB5AA6DA780CDE91E777 /* n_江西卫视.png */; };
+		A6DED4B4B354B8269347FCD9 /* n_财富天下.png in Resources */ = {isa = PBXBuildFile; fileRef = 0888DE0CE19E5D87B98C73A6 /* n_财富天下.png */; };
+		A7B7E6CB1929B484AC4150C3 /* n_中国天气.png in Resources */ = {isa = PBXBuildFile; fileRef = 685A7B4E947057ADC7F0A95A /* n_中国天气.png */; };
+		A7F3DFD725F5AC5202AD0F3D /* CCTV1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7F43E920E414191F86D936E /* CCTV1.png */; };
+		A9B8C7D6E5F4012345678902 /* SiriChannelIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8C7D6E5F4012345678901 /* SiriChannelIntents.swift */; };
+		A9B8C7D6E5F4012345678904 /* APTVChannelLogos in Resources */ = {isa = PBXBuildFile; fileRef = A9B8C7D6E5F4012345678903 /* APTVChannelLogos */; };
+		AAA13C4E5DFF587E165AD972 /* n_海南少儿.png in Resources */ = {isa = PBXBuildFile; fileRef = D149A5B0523B9847DD1FF3D0 /* n_海南少儿.png */; };
+		ABA28C84628ABDAFC039D0B4 /* n_CETV1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F9659EEF2C9D9F328FFB606 /* n_CETV1.png */; };
+		AE55FA0D301E58DD00A41DC2 /* WatchChannelPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000000000000000012 /* WatchChannelPayload.swift */; };
+		AE9B3DA6B5CA248FF2A07BC0 /* CCTV9-light.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4111B551C7D5E3EBECD8DC /* CCTV9-light.png */; };
+		AEDAA779305ED84DD527CE5D /* n_中华特产.png in Resources */ = {isa = PBXBuildFile; fileRef = 56FDEBDD426E03ACC8B674C1 /* n_中华特产.png */; };
+		AFA9491B09E6632A490806B8 /* n_CHC家庭影院.png in Resources */ = {isa = PBXBuildFile; fileRef = 52713F6051491CF57A22DF1B /* n_CHC家庭影院.png */; };
+		AFAC19C5DB0A38B92E87A920 /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D040F5E6049244915024B /* ChannelListView.swift */; };
+		B017DF6037361A87FB318BC6 /* ChannelLogoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1392134D437A42C5D63D8 /* ChannelLogoProvider.swift */; };
+		B26103EA0059C3095E1925B5 /* n_山东卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA09DC1AE7350800BF0559F /* n_山东卫视.png */; };
+		B2A6B5D51271C16CFDDFA8AA /* n_新疆卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = B477BD8E023B86B42F352487 /* n_新疆卫视.png */; };
+		B44EF20DEFF8E9ADB1423553 /* ChannelCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B62BC2EB9CB86C808A66D32 /* ChannelCard.swift */; };
+		B47B72BCB99A9D60EA95C711 /* n_青海卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 93607A6853EA8E72FCFE26E5 /* n_青海卫视.png */; };
+		B52F6E0F24C45D7C1A35CFDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1823E7CEFCB11A1A72A4E6 /* AppDelegate.swift */; };
+		B64AB47C79BA8A6A32DF7D83 /* 央视高网.png in Resources */ = {isa = PBXBuildFile; fileRef = E91748505B0AEF932DAF8270 /* 央视高网.png */; };
+		B9A9D8DBED68EFBB3321B8F6 /* n_吉林卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BAFA70791475A0A2BAA0B8A /* n_吉林卫视.png */; };
+		BA04E1CA2635D80862BBCF73 /* n_陕西体育休闲.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAE5EBBBDE3AC909B4D755D /* n_陕西体育休闲.png */; };
+		BA1000000000000000000001 /* BaiduMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1000000000000000000002 /* BaiduMusicView.swift */; };
+		BA57FB4AA8EE815BB65D4757 /* n_北京卫视4K.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB94FD485FD3F49FF4462C8 /* n_北京卫视4K.png */; };
+		BB3CE18C85C60252488C9FCD /* n_陕西都市青春.png in Resources */ = {isa = PBXBuildFile; fileRef = B50D5DD37CD0620AE8179331 /* n_陕西都市青春.png */; };
+		BBF765E648043625479A768C /* CCTV14.png in Resources */ = {isa = PBXBuildFile; fileRef = 08FC6DA9B84BF7E69B7A167C /* CCTV14.png */; };
+		BCD179296CB5F5B96F29BB5D /* n_凤凰中文.png in Resources */ = {isa = PBXBuildFile; fileRef = 71BCE00374021AC80DEF33FA /* n_凤凰中文.png */; };
+		BCD91226F1BCD0212CA06AAA /* 风云足球-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 62DDA593B383EC8B06AB2EE8 /* 风云足球-light.png */; };
+		BD0000000000000000000001 /* BaiduNetdiskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0000000000000000000002 /* BaiduNetdiskView.swift */; };
+		BEFF3156669030513A63C718 /* n_发现之旅.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AB12F601A8DF8973790A3 /* n_发现之旅.png */; };
+		C1A7E0C10000000000000001 /* ChannelLatencyProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7E0C10000000000000002 /* ChannelLatencyProbe.swift */; };
+		C73000000000000000000001 /* TraktService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73000000000000000000002 /* TraktService.swift */; };
+		C74000000000000000000001 /* RoveBadgeLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74000000000000000000002 /* RoveBadgeLibrary.swift */; };
+		C75000000000000000000001 /* SimklService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75000000000000000000002 /* SimklService.swift */; };
+		C25872790C0E95F5F13688F1 /* n_湖北卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = A3AC255BE248CD3E44CBFEEF /* n_湖北卫视.png */; };
+		C29D3CAF50878E73479FFB89 /* CCTV5.png in Resources */ = {isa = PBXBuildFile; fileRef = B402F9836EC949BE789F7D20 /* CCTV5.png */; };
+		C5C9D6213E85C8CCF81A6501 /* CCTV8-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 29AB525167B86A9EDC7BD2CB /* CCTV8-light.png */; };
+		C752B836E72D6CBBCF861E07 /* n_内蒙古卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B7A4CE1689E73BCE7F823D /* n_内蒙古卫视.png */; };
+		CAF1EAA2DDAFC179C68DC4C5 /* CCTV15-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AABC5FD76514D3B7E4D594 /* CCTV15-light.png */; };
+		CB1400000000000000000001 /* CarPlayBrowserEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1400000000000000000002 /* CarPlayBrowserEngine.swift */; };
+		CB1500000000000000000001 /* CarPlayPinyinEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1500000000000000000002 /* CarPlayPinyinEngine.swift */; };
+		CB1500000000000000000003 /* CarPlayPinyin.tsv.gz in Resources */ = {isa = PBXBuildFile; fileRef = CB1500000000000000000004 /* CarPlayPinyin.tsv.gz */; };
+		CB1500000000000000000005 /* CarPlayPinyin-NOTICE.txt in Resources */ = {isa = PBXBuildFile; fileRef = CB1500000000000000000006 /* CarPlayPinyin-NOTICE.txt */; };
+		CB1500000000000000000007 /* CarPlayPinyin-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = CB1500000000000000000008 /* CarPlayPinyin-LICENSE.txt */; };
+		CB1E53E88257239B6DFA34E0 /* n_湖南娱乐.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD16325EC71AA9938C4B57C /* n_湖南娱乐.png */; };
+		CD0000000000000000000001 /* CloudDriveConnectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000002 /* CloudDriveConnectionsView.swift */; };
+		CD0000000000000000000003 /* AliyunDriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000004 /* AliyunDriveView.swift */; };
+		CD0000000000000000000005 /* QuarkDriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000006 /* QuarkDriveView.swift */; };
+		CD0000000000000000000007 /* Pan115DriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000008 /* Pan115DriveView.swift */; };
+		CD1000000000000000000001 /* NativeCloudDriveSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1000000000000000000002 /* NativeCloudDriveSupport.swift */; };
+		CD1000000000000000000003 /* Pan123DriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1000000000000000000004 /* Pan123DriveView.swift */; };
+		CD1000000000000000000005 /* Cloud139DriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1000000000000000000006 /* Cloud139DriveView.swift */; };
+		CD1000000000000000000007 /* Cloud189DriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1000000000000000000008 /* Cloud189DriveView.swift */; };
+		CD1000000000000000000009 /* LanzouDriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1000000000000000000010 /* LanzouDriveView.swift */; };
+		CE0000000000000000000001 /* CastEnhancementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0000000000000000000002 /* CastEnhancementService.swift */; };
+		D04619520EFD17469C6152B3 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CD41F08EACFAF725A61BD1 /* NowPlayingView.swift */; };
+		D100000000000000000001 /* ProxySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100000000000000000002 /* ProxySettings.swift */; };
+		D100000000000000000003 /* ProxySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100000000000000000004 /* ProxySettingsView.swift */; };
+		D100C732161F96F52DE530B5 /* n_东南卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 53D5B5FB0B2B5547ABEFA362 /* n_东南卫视.png */; };
+		D110000000000000000001 /* HLSLoopbackProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110000000000000000002 /* HLSLoopbackProxy.swift */; };
+		D1FAC9F126B56BDCE58D3439 /* CCTV7-light.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6BB5E8CE848BDEEBB2434B /* CCTV7-light.png */; };
+		D200000000000000000001 /* DirectLinkLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D200000000000000000002 /* DirectLinkLibraryView.swift */; };
+		D3000000000000000000001 /* ThunderDriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3000000000000000000002 /* ThunderDriveView.swift */; };
+		D3100000000000000000001 /* GuangYaDriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3100000000000000000002 /* GuangYaDriveView.swift */; };
+		D40000000000000000000001 /* ScreenMirrorEntitlementCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40000000000000000000002 /* ScreenMirrorEntitlementCoordinator.swift */; };
+		D50000000000000000000010 /* CarPlayContinuousHorizontalScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50000000000000000000011 /* CarPlayContinuousHorizontalScroller.swift */; };
+		D600000000000000000001 /* MoviePilotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D600000000000000000002 /* MoviePilotService.swift */; };
+		D713C3F41679F9C584557449 /* n_广西卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A452D2135697D9024ABC5ED /* n_广西卫视.png */; };
+		D754AD8DFC62E5E026B56D00 /* n_广西国际.png in Resources */ = {isa = PBXBuildFile; fileRef = 370E92C88CA8F934A41C4ACA /* n_广西国际.png */; };
+		D75A1E9AB581C2C829E72228 /* CCTV6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8DBAAEEFE051180D0556AA /* CCTV6.png */; };
+		D79A0ED5E630292FC1BA1D80 /* 第一剧场.png in Resources */ = {isa = PBXBuildFile; fileRef = 29005442434568CAB86CC5EE /* 第一剧场.png */; };
+		D7E08C244E7D110BD0EDF599 /* n_陕西新闻资讯.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA129F6D921588D6FB55DBC /* n_陕西新闻资讯.png */; };
+		D8C241E10DC1610EAC26B848 /* CCTV4美洲.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A334E06E51D41B24A485CF /* CCTV4美洲.png */; };
+		DA7100000000000000000001 /* WebDAVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7100000000000000000002 /* WebDAVView.swift */; };
+		DBA000000000000000000001 /* SubscriptionAutoRefreshScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA000000000000000000002 /* SubscriptionAutoRefreshScheduler.swift */; };
+		DC850E96994EED2D30E870C8 /* CCTV10.png in Resources */ = {isa = PBXBuildFile; fileRef = 5927C3FA4E1ABAE3790B7003 /* CCTV10.png */; };
+		DCD89B3F3AE6F439A9EE99A0 /* n_北京纪实科教.png in Resources */ = {isa = PBXBuildFile; fileRef = F5BBC84644B89C090569C954 /* n_北京纪实科教.png */; };
+		DCE5B07FFE92351FA46DFE16 /* n_北京卡酷少儿.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E7CB3B5B49DF9677A6BFB83 /* n_北京卡酷少儿.png */; };
+		DDAA93371670A53222695747 /* CCTV5+.png in Resources */ = {isa = PBXBuildFile; fileRef = 7094AAB1EDC048AD97FD242D /* CCTV5+.png */; };
+		DE0A3454A9D65079B7E2E073 /* CCTV8K.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A557874B045AE6670ACE090 /* CCTV8K.png */; };
+		DFEE1649A5286B2D2BF50647 /* 风云足球.png in Resources */ = {isa = PBXBuildFile; fileRef = D83F39FA54EC48DB05B8FC56 /* 风云足球.png */; };
+		E0341AF130DB26873B7E6A77 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79EFC3105D1485E06EF49D /* Channel.swift */; };
+		E0855F278EFEF3E1720C0C50 /* n_广西都市.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC71CECC5C3FA7CFAC72833 /* n_广西都市.png */; };
+		E0FEE84626FBFE893CBD0DCF /* n_BTV影视.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5BAB437B8664B2E46AF60E /* n_BTV影视.png */; };
+		E10000000000000000000001 /* PlaybackCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10000000000000000000002 /* PlaybackCacheManager.swift */; };
+		E1159B5179C7A639245A6CF9 /* 卫生健康-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F1215E9CB8F474032C820CD /* 卫生健康-light.png */; };
+		E191ABA65F1510217EAAEA0D /* CCTV16-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 50532D99B90F5957A3FA1C7B /* CCTV16-light.png */; };
+		E2059DBD7E9AE5D73FB33DB4 /* n_山西卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = E4B533646746232F2076AAB3 /* n_山西卫视.png */; };
+		E32FFD953FD71E6B1E71B01F /* n_广东少儿.png in Resources */ = {isa = PBXBuildFile; fileRef = 078ABC51DE141BE3700E07F7 /* n_广东少儿.png */; };
+		E5F9FC5F3075A682FC8D28E9 /* CCTV12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D9D06F5700BBDE938C6B1 /* CCTV12.png */; };
+		E62C4265BF5937CA2CBCD9DB /* CCTV4欧洲.png in Resources */ = {isa = PBXBuildFile; fileRef = 6887F5CB7DE25567778C7169 /* CCTV4欧洲.png */; };
+		E7BBE840446118CA63D02ADB /* n_贵州卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF642BEF2340D29FA92B9B4 /* n_贵州卫视.png */; };
+		E9A100000000000000000001 /* EPGService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A100000000000000000002 /* EPGService.swift */; };
+		EB9B7076B1C68D3D1DD9D768 /* CCTV4-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 04786B968FC8B166EE8580E7 /* CCTV4-light.png */; };
+		EE10CA7B43CD8E74E7829663 /* n_中学生.png in Resources */ = {isa = PBXBuildFile; fileRef = A2582BA862FFCF212450573C /* n_中学生.png */; };
+		EE5A3875E8639C9B753E0BCE /* 卫生健康.png in Resources */ = {isa = PBXBuildFile; fileRef = EC21BE191F7DCAD838F0087A /* 卫生健康.png */; };
+		EF4EEEA0F6289394490BC5B2 /* CCTV8K-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C27396C00B955BEB256A815 /* CCTV8K-light.png */; };
+		EFEB0D76FA6519487939070B /* n_农林卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE51BD0BFDF00F1FFB457CC /* n_农林卫视.png */; };
+		F0A1B2C3D4E5F60718293A01 /* AppSuccessFeedbackOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A1B2C3D4E5F60718293A02 /* AppSuccessFeedbackOverlay.swift */; };
+		F10000000000000000000001 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000008 /* Localizable.strings */; };
+		F28CCA442A954CCA3699C92E /* 世界地理.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0936F39D375F9CA099588 /* 世界地理.png */; };
+		F31000000000000000000001 /* FeiniuMusicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31000000000000000000002 /* FeiniuMusicService.swift */; };
+		F31000000000000000000003 /* FeiniuMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31000000000000000000004 /* FeiniuMusicView.swift */; };
+		F32000000000000000000001 /* FeiniuVideoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32000000000000000000002 /* FeiniuVideoService.swift */; };
+		F4120D77F2F35D903AC74532 /* n_河北卫视.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F81D4B57627E8A647277552 /* n_河北卫视.png */; };
+		F6FBF077B993DA1A351847F5 /* n_江西新闻.png in Resources */ = {isa = PBXBuildFile; fileRef = ED846801C75DC4219A67C633 /* n_江西新闻.png */; };
+		F89E73527229AE904FF117C1 /* n_福建教育.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D18D2D43FE4DE75C8A7EBF /* n_福建教育.png */; };
+		FB16517905352C8E5A8AB300 /* CCTV13.png in Resources */ = {isa = PBXBuildFile; fileRef = 823CEDFE095E22E9B6E72E3E /* CCTV13.png */; };
+		FBD9ECB5AF5CA969073ACB9F /* CCTV4K-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D8024D645BA9B0AED635F8F /* CCTV4K-light.png */; };
+		FD0FD7CE8A4464409962EF9D /* n_梨园.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD62C079E165BD8E3FBC231 /* n_梨园.png */; };
+		FE3F2C436F5C413ACF6C1768 /* n_CETV4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D546B5BB490ABD4E461BF57 /* n_CETV4.png */; };
+		FF5845BAFC4B440A098C60AA /* 上海新闻.png in Resources */ = {isa = PBXBuildFile; fileRef = 9588D745B09F20B5629932DD /* 上海新闻.png */; };
+		FF9E1BFA8E457B56AAC497D2 /* n_CETV2.png in Resources */ = {isa = PBXBuildFile; fileRef = 770F367189353B3D064C4893 /* n_CETV2.png */; };
+		GD0000000000000000000001 /* GoogleDriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = GD0000000000000000000002 /* GoogleDriveView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		319783B21DB41D88560911D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 334103D87626B008E106BBE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D010C2F163BEC9A6C6C371E;
+			remoteInfo = MediaDeck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1A000000000000000000002 /* DJHUBAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJHUBAPIClient.swift; sourceTree = "<group>"; };
+		D1A000000000000000000004 /* DJHUBModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJHUBModels.swift; sourceTree = "<group>"; };
+		D1A000000000000000000006 /* DJHUBPosters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DJHUBPosters; sourceTree = "<group>"; };
+		E92000000000000000000002 /* RovePlayer新片入库推送配置教程.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "RovePlayer新片入库推送配置教程.pdf"; sourceTree = "<group>"; };
+		A500000000000000000002 /* ZCOOLQingKeHuangYou-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZCOOLQingKeHuangYou-Regular.ttf; sourceTree = "<group>"; };
+		A500000000000000000020 /* ZCOOLXiaoWei-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZCOOLXiaoWei-Regular.ttf; sourceTree = "<group>"; };
+		A500000000000000000021 /* MaShanZheng-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaShanZheng-Regular.ttf; sourceTree = "<group>"; };
+		A500000000000000000022 /* ZhiMangXing-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZhiMangXing-Regular.ttf; sourceTree = "<group>"; };
+		A500000000000000000023 /* LongCang-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LongCang-Regular.ttf; sourceTree = "<group>"; };
+		A500000000000000000024 /* ZCOOLKuaiLe-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZCOOLKuaiLe-Regular.ttf; sourceTree = "<group>"; };
+		00E7EA63F541094E14F81BB8 /* n_广东卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_广东卫视.png"; sourceTree = "<group>"; };
+		030CB16F387326006C32BB57 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		04786B968FC8B166EE8580E7 /* CCTV4-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV4-light.png"; sourceTree = "<group>"; };
+		048269097757AED0408D3989 /* CCTV10-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV10-light.png"; sourceTree = "<group>"; };
+		05B3648F69545F9E5E07DD92 /* n_凤凰资讯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_凤凰资讯.png"; sourceTree = "<group>"; };
+		05CE0D33631CA820B52DA5C6 /* n_江苏卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_江苏卫视.png"; sourceTree = "<group>"; };
+		078ABC51DE141BE3700E07F7 /* n_广东少儿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_广东少儿.png"; sourceTree = "<group>"; };
+		0888DE0CE19E5D87B98C73A6 /* n_财富天下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_财富天下.png"; sourceTree = "<group>"; };
+		08FC6DA9B84BF7E69B7A167C /* CCTV14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV14.png; sourceTree = "<group>"; };
+		099997E440B6C131E58BB178 /* RoadStreamBroadcastUpload.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RoadStreamBroadcastUpload.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A452D2135697D9024ABC5ED /* n_广西卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_广西卫视.png"; sourceTree = "<group>"; };
+		0B40E84EE46799564A187721 /* 世界地理-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "世界地理-light.png"; sourceTree = "<group>"; };
+		0BAFA70791475A0A2BAA0B8A /* n_吉林卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_吉林卫视.png"; sourceTree = "<group>"; };
+		0D1A5E87B21F4C1E913DA002 /* DLNACastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLNACastService.swift; sourceTree = "<group>"; };
+		0D8024D645BA9B0AED635F8F /* CCTV4K-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV4K-light.png"; sourceTree = "<group>"; };
+		0D8A4527BBE7E1EABF59E4DA /* RoadStream.Store.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoadStream.Store.entitlements; sourceTree = "<group>"; };
+		0DBC89D768B711E988892CE2 /* n_福建综合.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_福建综合.png"; sourceTree = "<group>"; };
+		0E7B4C91A52D4D31A125A002 /* LiveVideoSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveVideoSurface.swift; sourceTree = "<group>"; };
+		0FC0DD1F021550A46AE93430 /* n_湖南教育.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_湖南教育.png"; sourceTree = "<group>"; };
+		16A4974A6CC88A3E299331FD /* n_广东珠江.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_广东珠江.png"; sourceTree = "<group>"; };
+		183E794A0143F73EE73991E8 /* 怀旧剧场.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "怀旧剧场.png"; sourceTree = "<group>"; };
+		1A6D9D06F5700BBDE938C6B1 /* CCTV12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV12.png; sourceTree = "<group>"; };
+		1B64D51D8DE1AACBA4434978 /* 文化精品-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文化精品-light.png"; sourceTree = "<group>"; };
+		1BD16325EC71AA9938C4B57C /* n_湖南娱乐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_湖南娱乐.png"; sourceTree = "<group>"; };
+		1C52F904F63011C792E953F1 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1D401509AAEAD695737A5317 /* n_广东民生.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_广东民生.png"; sourceTree = "<group>"; };
+		1D546B5BB490ABD4E461BF57 /* n_CETV4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n_CETV4.png; sourceTree = "<group>"; };
+		1EABD1505206FBF2BA151070 /* ChannelLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelLibrary.swift; sourceTree = "<group>"; };
+		21769107CBBF2A6839D6E7F2 /* SamplePlaylist.m3u */ = {isa = PBXFileReference; lastKnownFileType = text; path = SamplePlaylist.m3u; sourceTree = "<group>"; };
+		21EC3B48B092979DB65E0C7E /* n_陕西卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_陕西卫视.png"; sourceTree = "<group>"; };
+		241D20112CF2D6B21D0E6FC2 /* n_云南卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_云南卫视.png"; sourceTree = "<group>"; };
+		24F09BE8FA62F1FE007951D2 /* 风云音乐-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "风云音乐-light.png"; sourceTree = "<group>"; };
+		2586B8A9B7504F964E7CA83B /* ScreenMirrorService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScreenMirrorService.swift; sourceTree = "<group>"; };
+		2640075A7780932F91879725 /* n_BTV财经.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_BTV财经.png"; sourceTree = "<group>"; };
+		2724C28FE2A15E0613712062 /* ExternalDisplaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalDisplaySceneDelegate.swift; sourceTree = "<group>"; };
+		27C9C90E25132CFCB1A768FD /* n_湖南卫视4K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_湖南卫视4K.png"; sourceTree = "<group>"; };
+		29005442434568CAB86CC5EE /* 第一剧场.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第一剧场.png"; sourceTree = "<group>"; };
+		29AB525167B86A9EDC7BD2CB /* CCTV8-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV8-light.png"; sourceTree = "<group>"; };
+		2A49D2E992CC51188234F3DD /* CCTV3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV3.png; sourceTree = "<group>"; };
+		2B62BC2EB9CB86C808A66D32 /* ChannelCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCard.swift; sourceTree = "<group>"; };
+		2E1823E7CEFCB11A1A72A4E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3085073F2AF00A6B727F258C /* n_广西影视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_广西影视.png"; sourceTree = "<group>"; };
+		319625A77CF6EC2F5BE5523A /* n_三沙卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_三沙卫视.png"; sourceTree = "<group>"; };
+		345F8E8DBA7E4AF312D64755 /* n_四川卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_四川卫视.png"; sourceTree = "<group>"; };
+		35B3BD0BADA92062F483FBD3 /* n_甘肃卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_甘肃卫视.png"; sourceTree = "<group>"; };
+		36751872EC236DC757015158 /* 电视指南.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电视指南.png"; sourceTree = "<group>"; };
+		370E92C88CA8F934A41C4ACA /* n_广西国际.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_广西国际.png"; sourceTree = "<group>"; };
+		37F8C7EF3FA6C296D64BCE24 /* n_广西综艺旅游.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_广西综艺旅游.png"; sourceTree = "<group>"; };
+		392E7C5430F2B6A4FACD2B2D /* CCTV15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV15.png; sourceTree = "<group>"; };
+		398EA122A41C1C62680138CA /* M3UParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M3UParserTests.swift; sourceTree = "<group>"; };
+		3A557874B045AE6670ACE090 /* CCTV8K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV8K.png; sourceTree = "<group>"; };
+		3A9B11B6608EC88AF919A4F4 /* n_海南新闻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_海南新闻.png"; sourceTree = "<group>"; };
+		3BC1975674A38A4030BBE450 /* MediaDeck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MediaDeck.entitlements; sourceTree = "<group>"; };
+		3C3E565B7F593B68D25107FF /* 怀旧剧场-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "怀旧剧场-light.png"; sourceTree = "<group>"; };
+		3C61C563A9CDC9DF51943874 /* CCTV3-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV3-light.png"; sourceTree = "<group>"; };
+		402D9D63896BC4A65F9657D4 /* n_BTV生活.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_BTV生活.png"; sourceTree = "<group>"; };
+		402FB9F65B7534CFE37F5F31 /* n_宁夏卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_宁夏卫视.png"; sourceTree = "<group>"; };
+		40428B4EB6B454D6EC1ECF0E /* 风云剧场-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "风云剧场-light.png"; sourceTree = "<group>"; };
+		441A07163ADFB49BF4984EFA /* n_福建新闻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_福建新闻.png"; sourceTree = "<group>"; };
+		44FB3B0FCC869B80CC4C7DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		46D1392134D437A42C5D63D8 /* ChannelLogoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelLogoProvider.swift; sourceTree = "<group>"; };
+		46E683DD37415AFE6D851BB5 /* n_深圳卫视4K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_深圳卫视4K.png"; sourceTree = "<group>"; };
+		4C04C4FF9171C8120320AAC9 /* n_金鹰卡通.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_金鹰卡通.png"; sourceTree = "<group>"; };
+		4D79EFC3105D1485E06EF49D /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		4E7CB3B5B49DF9677A6BFB83 /* n_北京卡酷少儿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_北京卡酷少儿.png"; sourceTree = "<group>"; };
+		4F209A773C38621894EBDBC1 /* PlayerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailView.swift; sourceTree = "<group>"; };
+		E81000000000000000000002 /* RoveDanmakuCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoveDanmakuCanvasView.swift; sourceTree = "<group>"; };
+		E81000000000000000000004 /* RoveLaunchCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoveLaunchCoverView.swift; sourceTree = "<group>"; };
+		50532D99B90F5957A3FA1C7B /* CCTV16-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV16-light.png"; sourceTree = "<group>"; };
+		52713F6051491CF57A22DF1B /* n_CHC家庭影院.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_CHC家庭影院.png"; sourceTree = "<group>"; };
+		53D5B5FB0B2B5547ABEFA362 /* n_东南卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_东南卫视.png"; sourceTree = "<group>"; };
+		544E3F4620D6BE0687A245B9 /* CCTV14-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV14-light.png"; sourceTree = "<group>"; };
+		55807E29B5BAAAEA66D7D8FD /* n_广东卫视4K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_广东卫视4K.png"; sourceTree = "<group>"; };
+		55A334E06E51D41B24A485CF /* CCTV4美洲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV4美洲.png"; sourceTree = "<group>"; };
+		56AABC5FD76514D3B7E4D594 /* CCTV15-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV15-light.png"; sourceTree = "<group>"; };
+		56FDEBDD426E03ACC8B674C1 /* n_中华特产.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_中华特产.png"; sourceTree = "<group>"; };
+		5927C3FA4E1ABAE3790B7003 /* CCTV10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV10.png; sourceTree = "<group>"; };
+		5A92E92B652BCAF03A97DE7D /* n_广西新闻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_广西新闻.png"; sourceTree = "<group>"; };
+		5B4CA4C790A76A54A1F84A4A /* n_怀旧剧场.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_怀旧剧场.png"; sourceTree = "<group>"; };
+		5BD6CD269DA7059121E253FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C2331432614873381E20217 /* n_北京卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_北京卫视.png"; sourceTree = "<group>"; };
+		5EB663BDBDEE4BC5BF873CE5 /* 文化精品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文化精品.png"; sourceTree = "<group>"; };
+		5EE51BD0BFDF00F1FFB457CC /* n_农林卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_农林卫视.png"; sourceTree = "<group>"; };
+		5F1215E9CB8F474032C820CD /* 卫生健康-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "卫生健康-light.png"; sourceTree = "<group>"; };
+		5F9659EEF2C9D9F328FFB606 /* n_CETV1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n_CETV1.png; sourceTree = "<group>"; };
+		625092C81459FB04E9EA9679 /* RoadStream.VideoOnly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoadStream.VideoOnly.entitlements; sourceTree = "<group>"; };
+		62DDA593B383EC8B06AB2EE8 /* 风云足球-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "风云足球-light.png"; sourceTree = "<group>"; };
+		63C2B85353D0ABFA132FDD25 /* n_武术世界.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_武术世界.png"; sourceTree = "<group>"; };
+		671A360B49E7413517576B32 /* MediaDeckLaunchService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MediaDeckLaunchService.swift; sourceTree = "<group>"; };
+		67CD41F08EACFAF725A61BD1 /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		685A7B4E947057ADC7F0A95A /* n_中国天气.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_中国天气.png"; sourceTree = "<group>"; };
+		687D30C64080C455F3FD330C /* n_浙江卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_浙江卫视.png"; sourceTree = "<group>"; };
+		6887F5CB7DE25567778C7169 /* CCTV4欧洲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV4欧洲.png"; sourceTree = "<group>"; };
+		6AEAC58A16DA19FAD9C12741 /* CCTV5-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV5-light.png"; sourceTree = "<group>"; };
+		6CE7CD90241AE08646D23B7D /* LiveChannelPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChannelPreview.swift; sourceTree = "<group>"; };
+		6CFC48615674B74F90F4D9A0 /* n_BTV新闻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_BTV新闻.png"; sourceTree = "<group>"; };
+		6D32C7FCAD6F64CC31A289DA /* n_天津卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_天津卫视.png"; sourceTree = "<group>"; };
+		6DA129F6D921588D6FB55DBC /* n_陕西新闻资讯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_陕西新闻资讯.png"; sourceTree = "<group>"; };
+		6F5DAB71EC9836CCD63ECA3B /* n_新动漫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_新动漫.png"; sourceTree = "<group>"; };
+		6F81D4B57627E8A647277552 /* n_河北卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_河北卫视.png"; sourceTree = "<group>"; };
+		6F8C0D2B6FFB16549FD0C93B /* CCTV4美洲-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV4美洲-light.png"; sourceTree = "<group>"; };
+		6FFE75E13E0AC1C80A4D23AC /* CCTV5+-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV5+-light.png"; sourceTree = "<group>"; };
+		7094AAB1EDC048AD97FD242D /* CCTV5+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV5+.png"; sourceTree = "<group>"; };
+		7139A9996EE2F60166006656 /* n_海南文旅.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_海南文旅.png"; sourceTree = "<group>"; };
+		71BCE00374021AC80DEF33FA /* n_凤凰中文.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_凤凰中文.png"; sourceTree = "<group>"; };
+		75CC4E411CF230F815807AB0 /* n_浙江卫视4K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_浙江卫视4K.png"; sourceTree = "<group>"; };
+		76B96463C3A4CF4B3CBCC94B /* CCTV6-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV6-light.png"; sourceTree = "<group>"; };
+		770EEBF0767782F5807DF30E /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
+		770F367189353B3D064C4893 /* n_CETV2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n_CETV2.png; sourceTree = "<group>"; };
+		776F8FDA6B912AFCD4AEC656 /* n_金鹰纪实.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_金鹰纪实.png"; sourceTree = "<group>"; };
+		78C4EB45E23706D10CA51DDF /* CCTV17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV17.png; sourceTree = "<group>"; };
+		792C28869D8336AF7974F6F2 /* n_山东教育.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_山东教育.png"; sourceTree = "<group>"; };
+		7AD62C079E165BD8E3FBC231 /* n_梨园.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_梨园.png"; sourceTree = "<group>"; };
+		7B3CAB5AA6DA780CDE91E777 /* n_江西卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_江西卫视.png"; sourceTree = "<group>"; };
+		7C27396C00B955BEB256A815 /* CCTV8K-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV8K-light.png"; sourceTree = "<group>"; };
+		7D6B4745026887EE9F337D83 /* 央视台球-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "央视台球-light.png"; sourceTree = "<group>"; };
+		7F89BA8591A1256FE604F784 /* n_福建文体.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_福建文体.png"; sourceTree = "<group>"; };
+		823CEDFE095E22E9B6E72E3E /* CCTV13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV13.png; sourceTree = "<group>"; };
+		8377CC886E92022B5C854E90 /* M3UParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M3UParser.swift; sourceTree = "<group>"; };
+		8749D90C07E987D9E3C5C886 /* 风云音乐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "风云音乐.png"; sourceTree = "<group>"; };
+		880AC00662C9C87AACCACEB5 /* n_天元围棋.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_天元围棋.png"; sourceTree = "<group>"; };
+		892FA939E1969C41CCC7D069 /* CCTV7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV7.png; sourceTree = "<group>"; };
+		89EE3880E77698465CACFC20 /* n_快乐垂钓.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_快乐垂钓.png"; sourceTree = "<group>"; };
+		8A0E5CA058B1B9B92C634515 /* CCTV11-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV11-light.png"; sourceTree = "<group>"; };
+		8AFE29E53FA1F6A63E947E0B /* n_深圳卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_深圳卫视.png"; sourceTree = "<group>"; };
+		8CB0936F39D375F9CA099588 /* 世界地理.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "世界地理.png"; sourceTree = "<group>"; };
+		8FC71CECC5C3FA7CFAC72833 /* n_广西都市.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_广西都市.png"; sourceTree = "<group>"; };
+		8FD7EB06B4A53A2B3DA78805 /* CCTV4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV4.png; sourceTree = "<group>"; };
+		905F3333D275AC5C622FB631 /* RovePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RovePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93607A6853EA8E72FCFE26E5 /* n_青海卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_青海卫视.png"; sourceTree = "<group>"; };
+		94F08BD23D8A6D4C29D6D2F6 /* CCTV12-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV12-light.png"; sourceTree = "<group>"; };
+		9588D745B09F20B5629932DD /* 上海新闻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上海新闻.png"; sourceTree = "<group>"; };
+		968D4E0571FE64CE14A70F33 /* RovePlayerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RovePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		973EED6EB52023C415B6478C /* n_广东体育.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_广东体育.png"; sourceTree = "<group>"; };
+		99D0155F0C4D204D4381EDFE /* CCTV11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV11.png; sourceTree = "<group>"; };
+		9A8DBAAEEFE051180D0556AA /* CCTV6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV6.png; sourceTree = "<group>"; };
+		9AF460DEE72B7B8514A96684 /* n_东方卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_东方卫视.png"; sourceTree = "<group>"; };
+		9BAE5EBBBDE3AC909B4D755D /* n_陕西体育休闲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_陕西体育休闲.png"; sourceTree = "<group>"; };
+		9C722B3A6384FF530FDB2D9E /* CCTV17-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV17-light.png"; sourceTree = "<group>"; };
+		9DC04836498BE8ED3BFDE4BE /* n_BTV文艺.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_BTV文艺.png"; sourceTree = "<group>"; };
+		9E1D4C67BE384B2E5D5C8C69 /* 第一剧场-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第一剧场-light.png"; sourceTree = "<group>"; };
+		A100000000000000000011 /* WatchSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSyncService.swift; sourceTree = "<group>"; };
+		A100000000000000000012 /* WatchChannelPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchChannelPayload.swift; sourceTree = "<group>"; };
+		A100000000000000000017 /* RoadStreamWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadStreamWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A200000000000000000005 /* MPVCompatiblePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVCompatiblePlayer.swift; sourceTree = "<group>"; };
+		D700000000000000000005 /* MPVPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVPlayerView.swift; sourceTree = "<group>"; };
+		A2582BA862FFCF212450573C /* n_中学生.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_中学生.png"; sourceTree = "<group>"; };
+		A300000000000000000002 /* ProPurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProPurchaseManager.swift; sourceTree = "<group>"; };
+		A300000000000000000004 /* ProView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProView.swift; sourceTree = "<group>"; };
+		A300000000000000000005 /* TuboPro.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = TuboPro.storekit; sourceTree = "<group>"; };
+		A36F86EA7DB0940B7665FAB1 /* CCTV16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV16.png; sourceTree = "<group>"; };
+		A3AC255BE248CD3E44CBFEEF /* n_湖北卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_湖北卫视.png"; sourceTree = "<group>"; };
+		A400000000000000000002 /* LocalVideoLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalVideoLibraryView.swift; sourceTree = "<group>"; };
+		A9B8C7D6E5F4012345678901 /* SiriChannelIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriChannelIntents.swift; sourceTree = "<group>"; };
+		A9B8C7D6E5F4012345678903 /* APTVChannelLogos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = APTVChannelLogos; sourceTree = "<group>"; };
+		AA3AA1C439855D2E22A28D40 /* PlaybackCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackCoordinator.swift; sourceTree = "<group>"; };
+		AA8DE9B996868A6D800E9FF1 /* n_辽宁卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_辽宁卫视.png"; sourceTree = "<group>"; };
+		AC8940F29C1E56874A783FC7 /* CCTV4K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV4K.png; sourceTree = "<group>"; };
+		AF6BB5E8CE848BDEEBB2434B /* CCTV7-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV7-light.png"; sourceTree = "<group>"; };
+		B3EB9A03835A54A0E52DC048 /* CCTV13-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV13-light.png"; sourceTree = "<group>"; };
+		B402F9836EC949BE789F7D20 /* CCTV5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV5.png; sourceTree = "<group>"; };
+		B4352997788BF826D4B9DC1D /* n_CCTV3D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n_CCTV3D.png; sourceTree = "<group>"; };
+		B477BD8E023B86B42F352487 /* n_新疆卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_新疆卫视.png"; sourceTree = "<group>"; };
+		B500000000000000000005 /* VLCPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLCPlayerView.swift; sourceTree = "<group>"; };
+		B50D5DD37CD0620AE8179331 /* n_陕西都市青春.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_陕西都市青春.png"; sourceTree = "<group>"; };
+		B5B44CE345F929402A7CD8DC /* MediaDeckShell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MediaDeckShell.swift; sourceTree = "<group>"; };
+		B9B7A4CE1689E73BCE7F823D /* n_内蒙古卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_内蒙古卫视.png"; sourceTree = "<group>"; };
+		BA1000000000000000000002 /* BaiduMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduMusicView.swift; sourceTree = "<group>"; };
+		BA7294C130B9DFABD509B9C5 /* n_广东新闻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_广东新闻.png"; sourceTree = "<group>"; };
+		BB22ABB14038024D4EE96DA0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BBA4835A992123F55402B297 /* n_重温经典.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_重温经典.png"; sourceTree = "<group>"; };
+		BCA09DC1AE7350800BF0559F /* n_山东卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_山东卫视.png"; sourceTree = "<group>"; };
+		BD0000000000000000000002 /* BaiduNetdiskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduNetdiskView.swift; sourceTree = "<group>"; };
+		BF0ACBA75F1D546E2DB4DFA2 /* RoadStreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStreamApp.swift; sourceTree = "<group>"; };
+		D90000000000000000000002 /* DuoPlayerAdaptation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoPlayerAdaptation.swift; sourceTree = "<group>"; };
+		BF4111B551C7D5E3EBECD8DC /* CCTV9-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV9-light.png"; sourceTree = "<group>"; };
+		C0285B89A6CA6F4CCC93B9D8 /* RoadStream.AudioOnly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoadStream.AudioOnly.entitlements; sourceTree = "<group>"; };
+		C07AB12F601A8DF8973790A3 /* n_发现之旅.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_发现之旅.png"; sourceTree = "<group>"; };
+		C1A7E0C10000000000000002 /* ChannelLatencyProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelLatencyProbe.swift; sourceTree = "<group>"; };
+		C73000000000000000000002 /* TraktService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraktService.swift; sourceTree = "<group>"; };
+		C74000000000000000000002 /* RoveBadgeLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoveBadgeLibrary.swift; sourceTree = "<group>"; };
+		C75000000000000000000002 /* SimklService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimklService.swift; sourceTree = "<group>"; };
+		C76000000000000000000002 /* MinorModeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinorModeService.swift; sourceTree = "<group>"; };
+		C77000000000000000000002 /* RoveServerFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoveServerFeatures.swift; sourceTree = "<group>"; };
+		C73000000000000000000003 /* RovePlayer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/RovePlayer.xcconfig; sourceTree = "<group>"; };
+		C600000000000000000002 /* BlurayISOPlayback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurayISOPlayback.swift; sourceTree = "<group>"; };
+		C7FF1A784C21E2D359D828E8 /* CCTV8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV8.png; sourceTree = "<group>"; };
+		C8848AC2F4F82EF6C564A33B /* 央视高网-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "央视高网-light.png"; sourceTree = "<group>"; };
+		C88C3983C038CF41AA06A4CA /* CCTV2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV2.png; sourceTree = "<group>"; };
+		CB1400000000000000000002 /* CarPlayBrowserEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayBrowserEngine.swift; sourceTree = "<group>"; };
+		CB1500000000000000000002 /* CarPlayPinyinEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayPinyinEngine.swift; sourceTree = "<group>"; };
+		CB1500000000000000000004 /* CarPlayPinyin.tsv.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = CarPlayPinyin.tsv.gz; sourceTree = "<group>"; };
+		CB1500000000000000000006 /* CarPlayPinyin-NOTICE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CarPlayPinyin-NOTICE.txt"; sourceTree = "<group>"; };
+		CB1500000000000000000008 /* CarPlayPinyin-LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CarPlayPinyin-LICENSE.txt"; sourceTree = "<group>"; };
+		CD0000000000000000000002 /* CloudDriveConnectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudDriveConnectionsView.swift; sourceTree = "<group>"; };
+		CD0000000000000000000004 /* AliyunDriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliyunDriveView.swift; sourceTree = "<group>"; };
+		CD0000000000000000000006 /* QuarkDriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarkDriveView.swift; sourceTree = "<group>"; };
+		CD0000000000000000000008 /* Pan115DriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pan115DriveView.swift; sourceTree = "<group>"; };
+		CD1000000000000000000002 /* NativeCloudDriveSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeCloudDriveSupport.swift; sourceTree = "<group>"; };
+		CD1000000000000000000004 /* Pan123DriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pan123DriveView.swift; sourceTree = "<group>"; };
+		CD1000000000000000000006 /* Cloud139DriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud139DriveView.swift; sourceTree = "<group>"; };
+		CD1000000000000000000008 /* Cloud189DriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud189DriveView.swift; sourceTree = "<group>"; };
+		CD1000000000000000000010 /* LanzouDriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanzouDriveView.swift; sourceTree = "<group>"; };
+		CD7BC7EF42EACD541B0F5937 /* 上海新闻-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上海新闻-light.png"; sourceTree = "<group>"; };
+		CDF642BEF2340D29FA92B9B4 /* n_贵州卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_贵州卫视.png"; sourceTree = "<group>"; };
+		CE0000000000000000000002 /* CastEnhancementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastEnhancementService.swift; sourceTree = "<group>"; };
+		CE0000000000000000000006 /* RoadStreamPacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RoadStreamPacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF24DA50850AD96B56101C0C /* 风云剧场.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "风云剧场.png"; sourceTree = "<group>"; };
+		CFAC058BCCFC5241199D36E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0C5FD4A48129C10D9EF25BE /* n_黑龙江卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_黑龙江卫视.png"; sourceTree = "<group>"; };
+		D0D007D90405EB0E0EA6A5FC /* n_卡酷少儿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_卡酷少儿.png"; sourceTree = "<group>"; };
+		D100000000000000000002 /* ProxySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxySettings.swift; sourceTree = "<group>"; };
+		D100000000000000000004 /* ProxySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxySettingsView.swift; sourceTree = "<group>"; };
+		D110000000000000000002 /* HLSLoopbackProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLSLoopbackProxy.swift; sourceTree = "<group>"; };
+		D149A5B0523B9847DD1FF3D0 /* n_海南少儿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_海南少儿.png"; sourceTree = "<group>"; };
+		D200000000000000000002 /* DirectLinkLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectLinkLibraryView.swift; sourceTree = "<group>"; };
+		D2E06B10DA073953579C896E /* SourceCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCenterView.swift; sourceTree = "<group>"; };
+		D3000000000000000000002 /* ThunderDriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderDriveView.swift; sourceTree = "<group>"; };
+		D3100000000000000000002 /* GuangYaDriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuangYaDriveView.swift; sourceTree = "<group>"; };
+		D40000000000000000000002 /* ScreenMirrorEntitlementCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScreenMirrorEntitlementCoordinator.swift; sourceTree = "<group>"; };
+		D4D18D2D43FE4DE75C8A7EBF /* n_福建教育.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_福建教育.png"; sourceTree = "<group>"; };
+		D50000000000000000000011 /* CarPlayContinuousHorizontalScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayContinuousHorizontalScroller.swift; sourceTree = "<group>"; };
+		D600000000000000000002 /* MoviePilotService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePilotService.swift; sourceTree = "<group>"; };
+		D697D2871817C68B6AF02711 /* n_CHC影迷电影.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_CHC影迷电影.png"; sourceTree = "<group>"; };
+		D7735051BC4DE6DB14836CC7 /* n_CHC动作电影.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_CHC动作电影.png"; sourceTree = "<group>"; };
+		D83F39FA54EC48DB05B8FC56 /* 风云足球.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "风云足球.png"; sourceTree = "<group>"; };
+		DA7100000000000000000002 /* WebDAVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDAVView.swift; sourceTree = "<group>"; };
+		DBA000000000000000000002 /* SubscriptionAutoRefreshScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionAutoRefreshScheduler.swift; sourceTree = "<group>"; };
+		DC8598AD4B5B97A24660B922 /* 兵器科技-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "兵器科技-light.png"; sourceTree = "<group>"; };
+		DDAE8214B3C46CF0B981E766 /* n_安徽卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_安徽卫视.png"; sourceTree = "<group>"; };
+		E0AE6DF7607CBD8CE985C2B5 /* CCTV4欧洲-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV4欧洲-light.png"; sourceTree = "<group>"; };
+		E0D6FA6E5764AED20B7678D4 /* n_大湾区卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_大湾区卫视.png"; sourceTree = "<group>"; };
+		E10000000000000000000002 /* PlaybackCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackCacheManager.swift; sourceTree = "<group>"; };
+		E46BEBD9DC78000C50F88C78 /* n_兵团卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_兵团卫视.png"; sourceTree = "<group>"; };
+		E46E92E5D468E9284A5C0FC8 /* n_福建少儿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_福建少儿.png"; sourceTree = "<group>"; };
+		E4B533646746232F2076AAB3 /* n_山西卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_山西卫视.png"; sourceTree = "<group>"; };
+		E7D87CC30D15009EAD667A97 /* n_环球旅游.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_环球旅游.png"; sourceTree = "<group>"; };
+		E85BF30C040821B6B786D46E /* n_IPTV怀旧剧场.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_IPTV怀旧剧场.png"; sourceTree = "<group>"; };
+		E91748505B0AEF932DAF8270 /* 央视高网.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "央视高网.png"; sourceTree = "<group>"; };
+		E9A100000000000000000002 /* EPGService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPGService.swift; sourceTree = "<group>"; };
+		EBB94FD485FD3F49FF4462C8 /* n_北京卫视4K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_北京卫视4K.png"; sourceTree = "<group>"; };
+		EC21BE191F7DCAD838F0087A /* 卫生健康.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "卫生健康.png"; sourceTree = "<group>"; };
+		EC5D040F5E6049244915024B /* ChannelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListView.swift; sourceTree = "<group>"; };
+		EC938EBFF05993C585F9E89C /* 兵器科技.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "兵器科技.png"; sourceTree = "<group>"; };
+		ED320E19A90D4CF6FAB4E282 /* CCTV9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV9.png; sourceTree = "<group>"; };
+		ED846801C75DC4219A67C633 /* n_江西新闻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_江西新闻.png"; sourceTree = "<group>"; };
+		F0A1B2C3D4E5F60718293A02 /* AppSuccessFeedbackOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSuccessFeedbackOverlay.swift; sourceTree = "<group>"; };
+		F10000000000000000000002 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F10000000000000000000003 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F10000000000000000000004 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F10000000000000000000005 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F10000000000000000000006 /* Turkish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Turkish; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F10000000000000000000007 /* Vietnamese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Vietnamese; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F1316E5F9A398F8485E939A5 /* n_湖南卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_湖南卫视.png"; sourceTree = "<group>"; };
+		F1A427D8AAA35249F22307F6 /* n_BTV科教.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_BTV科教.png"; sourceTree = "<group>"; };
+		F20000000000000000000001 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000002 /* bn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bn; path = bn.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000003 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000004 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000005 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000006 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000007 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000008 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F20000000000000000000009 /* en-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-CA"; path = "en-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F2000000000000000000000A /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F2000000000000000000000B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2000000000000000000000C /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F2000000000000000000000D /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2000000000000000000000E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2000000000000000000000F /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F20000000000000000000010 /* gu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = gu; path = gu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000011 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000012 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000013 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000014 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000015 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000016 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000017 /* kn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kn; path = kn.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000018 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000019 /* ml */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ml; path = ml.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2000000000000000000001A /* mr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mr; path = mr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2000000000000000000001B /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2000000000000000000001C /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2000000000000000000001D /* no */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = no; path = no.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2000000000000000000001E /* or */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = or; path = or.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2000000000000000000001F /* pa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pa; path = pa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000020 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000021 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F20000000000000000000022 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F20000000000000000000023 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000024 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000025 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000026 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000027 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000028 /* ta */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ta; path = ta.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F20000000000000000000029 /* te */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = te; path = te.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2000000000000000000002A /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2000000000000000000002B /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2000000000000000000002C /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F31000000000000000000002 /* FeiniuMusicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeiniuMusicService.swift; sourceTree = "<group>"; };
+		F31000000000000000000004 /* FeiniuMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeiniuMusicView.swift; sourceTree = "<group>"; };
+		F32000000000000000000002 /* FeiniuVideoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeiniuVideoService.swift; sourceTree = "<group>"; };
+		F46C2CF831D415FE12DCA234 /* CCTV1-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV1-light.png"; sourceTree = "<group>"; };
+		F596C4D00D4F011745F4170B /* PlaylistURLImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistURLImportView.swift; sourceTree = "<group>"; };
+		F5BBC84644B89C090569C954 /* n_北京纪实科教.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_北京纪实科教.png"; sourceTree = "<group>"; };
+		F60ECE31B4742AA4B64B7C86 /* CloudSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudSyncService.swift; sourceTree = "<group>"; };
+		F78752F43B8B3900CC4087A1 /* 央视台球.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "央视台球.png"; sourceTree = "<group>"; };
+		F7F43E920E414191F86D936E /* CCTV1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCTV1.png; sourceTree = "<group>"; };
+		F95BC77A4C930BF873F2ECEA /* CCTV2-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCTV2-light.png"; sourceTree = "<group>"; };
+		FA5C950FB524F1B2174CBBA3 /* n_四海钓鱼.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_四海钓鱼.png"; sourceTree = "<group>"; };
+		FA9130187C27F8E7A564EE40 /* n_河南卫视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_河南卫视.png"; sourceTree = "<group>"; };
+		FBD8E11B21430DC1DC23CE14 /* 电视指南-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电视指南-light.png"; sourceTree = "<group>"; };
+		FC5BAB437B8664B2E46AF60E /* n_BTV影视.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "n_BTV影视.png"; sourceTree = "<group>"; };
+		GD0000000000000000000002 /* GoogleDriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDriveView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A200000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027C901ADCB9F3DB46828855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				175D702AA7C752DC7C8FA0FA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		175D702AA7C752DC7C8FA0FA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC058BCCFC5241199D36E2 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		18245E72513806FD57E9F2DF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D1A000000000000000000002 /* DJHUBAPIClient.swift */,
+				C600000000000000000002 /* BlurayISOPlayback.swift */,
+				C1A7E0C10000000000000002 /* ChannelLatencyProbe.swift */,
+				C73000000000000000000002 /* TraktService.swift */,
+				C74000000000000000000002 /* RoveBadgeLibrary.swift */,
+				C75000000000000000000002 /* SimklService.swift */,
+				C76000000000000000000002 /* MinorModeService.swift */,
+				C77000000000000000000002 /* RoveServerFeatures.swift */,
+				1EABD1505206FBF2BA151070 /* ChannelLibrary.swift */,
+				46D1392134D437A42C5D63D8 /* ChannelLogoProvider.swift */,
+				F60ECE31B4742AA4B64B7C86 /* CloudSyncService.swift */,
+				0D1A5E87B21F4C1E913DA002 /* DLNACastService.swift */,
+				CE0000000000000000000002 /* CastEnhancementService.swift */,
+				E9A100000000000000000002 /* EPGService.swift */,
+				F31000000000000000000002 /* FeiniuMusicService.swift */,
+				F32000000000000000000002 /* FeiniuVideoService.swift */,
+				8377CC886E92022B5C854E90 /* M3UParser.swift */,
+				A200000000000000000005 /* MPVCompatiblePlayer.swift */,
+				D700000000000000000005 /* MPVPlayerView.swift */,
+				B500000000000000000005 /* VLCPlayerView.swift */,
+				E10000000000000000000002 /* PlaybackCacheManager.swift */,
+				AA3AA1C439855D2E22A28D40 /* PlaybackCoordinator.swift */,
+				DBA000000000000000000002 /* SubscriptionAutoRefreshScheduler.swift */,
+				D100000000000000000002 /* ProxySettings.swift */,
+				D110000000000000000002 /* HLSLoopbackProxy.swift */,
+				D600000000000000000002 /* MoviePilotService.swift */,
+				A300000000000000000002 /* ProPurchaseManager.swift */,
+				A9B8C7D6E5F4012345678901 /* SiriChannelIntents.swift */,
+				A100000000000000000011 /* WatchSyncService.swift */,
+				2586B8A9B7504F964E7CA83B /* ScreenMirrorService.swift */,
+				D40000000000000000000002 /* ScreenMirrorEntitlementCoordinator.swift */,
+				671A360B49E7413517576B32 /* MediaDeckLaunchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4A802F33B17C411BBEA62786 /* ChannelLogos */ = {
+			isa = PBXGroup;
+			children = (
+				DC8598AD4B5B97A24660B922 /* 兵器科技-light.png */,
+				EC938EBFF05993C585F9E89C /* 兵器科技.png */,
+				9E1D4C67BE384B2E5D5C8C69 /* 第一剧场-light.png */,
+				29005442434568CAB86CC5EE /* 第一剧场.png */,
+				FBD8E11B21430DC1DC23CE14 /* 电视指南-light.png */,
+				36751872EC236DC757015158 /* 电视指南.png */,
+				40428B4EB6B454D6EC1ECF0E /* 风云剧场-light.png */,
+				CF24DA50850AD96B56101C0C /* 风云剧场.png */,
+				24F09BE8FA62F1FE007951D2 /* 风云音乐-light.png */,
+				8749D90C07E987D9E3C5C886 /* 风云音乐.png */,
+				62DDA593B383EC8B06AB2EE8 /* 风云足球-light.png */,
+				D83F39FA54EC48DB05B8FC56 /* 风云足球.png */,
+				3C3E565B7F593B68D25107FF /* 怀旧剧场-light.png */,
+				183E794A0143F73EE73991E8 /* 怀旧剧场.png */,
+				CD7BC7EF42EACD541B0F5937 /* 上海新闻-light.png */,
+				9588D745B09F20B5629932DD /* 上海新闻.png */,
+				0B40E84EE46799564A187721 /* 世界地理-light.png */,
+				8CB0936F39D375F9CA099588 /* 世界地理.png */,
+				5F1215E9CB8F474032C820CD /* 卫生健康-light.png */,
+				EC21BE191F7DCAD838F0087A /* 卫生健康.png */,
+				1B64D51D8DE1AACBA4434978 /* 文化精品-light.png */,
+				5EB663BDBDEE4BC5BF873CE5 /* 文化精品.png */,
+				C8848AC2F4F82EF6C564A33B /* 央视高网-light.png */,
+				E91748505B0AEF932DAF8270 /* 央视高网.png */,
+				7D6B4745026887EE9F337D83 /* 央视台球-light.png */,
+				F78752F43B8B3900CC4087A1 /* 央视台球.png */,
+				F46C2CF831D415FE12DCA234 /* CCTV1-light.png */,
+				F7F43E920E414191F86D936E /* CCTV1.png */,
+				F95BC77A4C930BF873F2ECEA /* CCTV2-light.png */,
+				C88C3983C038CF41AA06A4CA /* CCTV2.png */,
+				3C61C563A9CDC9DF51943874 /* CCTV3-light.png */,
+				2A49D2E992CC51188234F3DD /* CCTV3.png */,
+				04786B968FC8B166EE8580E7 /* CCTV4-light.png */,
+				8FD7EB06B4A53A2B3DA78805 /* CCTV4.png */,
+				6F8C0D2B6FFB16549FD0C93B /* CCTV4美洲-light.png */,
+				55A334E06E51D41B24A485CF /* CCTV4美洲.png */,
+				E0AE6DF7607CBD8CE985C2B5 /* CCTV4欧洲-light.png */,
+				6887F5CB7DE25567778C7169 /* CCTV4欧洲.png */,
+				0D8024D645BA9B0AED635F8F /* CCTV4K-light.png */,
+				AC8940F29C1E56874A783FC7 /* CCTV4K.png */,
+				6AEAC58A16DA19FAD9C12741 /* CCTV5-light.png */,
+				B402F9836EC949BE789F7D20 /* CCTV5.png */,
+				6FFE75E13E0AC1C80A4D23AC /* CCTV5+-light.png */,
+				7094AAB1EDC048AD97FD242D /* CCTV5+.png */,
+				76B96463C3A4CF4B3CBCC94B /* CCTV6-light.png */,
+				9A8DBAAEEFE051180D0556AA /* CCTV6.png */,
+				AF6BB5E8CE848BDEEBB2434B /* CCTV7-light.png */,
+				892FA939E1969C41CCC7D069 /* CCTV7.png */,
+				29AB525167B86A9EDC7BD2CB /* CCTV8-light.png */,
+				C7FF1A784C21E2D359D828E8 /* CCTV8.png */,
+				7C27396C00B955BEB256A815 /* CCTV8K-light.png */,
+				3A557874B045AE6670ACE090 /* CCTV8K.png */,
+				BF4111B551C7D5E3EBECD8DC /* CCTV9-light.png */,
+				ED320E19A90D4CF6FAB4E282 /* CCTV9.png */,
+				048269097757AED0408D3989 /* CCTV10-light.png */,
+				5927C3FA4E1ABAE3790B7003 /* CCTV10.png */,
+				8A0E5CA058B1B9B92C634515 /* CCTV11-light.png */,
+				99D0155F0C4D204D4381EDFE /* CCTV11.png */,
+				94F08BD23D8A6D4C29D6D2F6 /* CCTV12-light.png */,
+				1A6D9D06F5700BBDE938C6B1 /* CCTV12.png */,
+				B3EB9A03835A54A0E52DC048 /* CCTV13-light.png */,
+				823CEDFE095E22E9B6E72E3E /* CCTV13.png */,
+				544E3F4620D6BE0687A245B9 /* CCTV14-light.png */,
+				08FC6DA9B84BF7E69B7A167C /* CCTV14.png */,
+				56AABC5FD76514D3B7E4D594 /* CCTV15-light.png */,
+				392E7C5430F2B6A4FACD2B2D /* CCTV15.png */,
+				50532D99B90F5957A3FA1C7B /* CCTV16-light.png */,
+				A36F86EA7DB0940B7665FAB1 /* CCTV16.png */,
+				9C722B3A6384FF530FDB2D9E /* CCTV17-light.png */,
+				78C4EB45E23706D10CA51DDF /* CCTV17.png */,
+				DDAE8214B3C46CF0B981E766 /* n_安徽卫视.png */,
+				F5BBC84644B89C090569C954 /* n_北京纪实科教.png */,
+				4E7CB3B5B49DF9677A6BFB83 /* n_北京卡酷少儿.png */,
+				5C2331432614873381E20217 /* n_北京卫视.png */,
+				EBB94FD485FD3F49FF4462C8 /* n_北京卫视4K.png */,
+				E46BEBD9DC78000C50F88C78 /* n_兵团卫视.png */,
+				0888DE0CE19E5D87B98C73A6 /* n_财富天下.png */,
+				E0D6FA6E5764AED20B7678D4 /* n_大湾区卫视.png */,
+				9AF460DEE72B7B8514A96684 /* n_东方卫视.png */,
+				53D5B5FB0B2B5547ABEFA362 /* n_东南卫视.png */,
+				C07AB12F601A8DF8973790A3 /* n_发现之旅.png */,
+				71BCE00374021AC80DEF33FA /* n_凤凰中文.png */,
+				05B3648F69545F9E5E07DD92 /* n_凤凰资讯.png */,
+				D4D18D2D43FE4DE75C8A7EBF /* n_福建教育.png */,
+				E46E92E5D468E9284A5C0FC8 /* n_福建少儿.png */,
+				7F89BA8591A1256FE604F784 /* n_福建文体.png */,
+				441A07163ADFB49BF4984EFA /* n_福建新闻.png */,
+				0DBC89D768B711E988892CE2 /* n_福建综合.png */,
+				35B3BD0BADA92062F483FBD3 /* n_甘肃卫视.png */,
+				1D401509AAEAD695737A5317 /* n_广东民生.png */,
+				078ABC51DE141BE3700E07F7 /* n_广东少儿.png */,
+				973EED6EB52023C415B6478C /* n_广东体育.png */,
+				00E7EA63F541094E14F81BB8 /* n_广东卫视.png */,
+				55807E29B5BAAAEA66D7D8FD /* n_广东卫视4K.png */,
+				BA7294C130B9DFABD509B9C5 /* n_广东新闻.png */,
+				16A4974A6CC88A3E299331FD /* n_广东珠江.png */,
+				8FC71CECC5C3FA7CFAC72833 /* n_广西都市.png */,
+				370E92C88CA8F934A41C4ACA /* n_广西国际.png */,
+				0A452D2135697D9024ABC5ED /* n_广西卫视.png */,
+				5A92E92B652BCAF03A97DE7D /* n_广西新闻.png */,
+				3085073F2AF00A6B727F258C /* n_广西影视.png */,
+				37F8C7EF3FA6C296D64BCE24 /* n_广西综艺旅游.png */,
+				CDF642BEF2340D29FA92B9B4 /* n_贵州卫视.png */,
+				D149A5B0523B9847DD1FF3D0 /* n_海南少儿.png */,
+				7139A9996EE2F60166006656 /* n_海南文旅.png */,
+				3A9B11B6608EC88AF919A4F4 /* n_海南新闻.png */,
+				6F81D4B57627E8A647277552 /* n_河北卫视.png */,
+				FA9130187C27F8E7A564EE40 /* n_河南卫视.png */,
+				D0C5FD4A48129C10D9EF25BE /* n_黑龙江卫视.png */,
+				A3AC255BE248CD3E44CBFEEF /* n_湖北卫视.png */,
+				0FC0DD1F021550A46AE93430 /* n_湖南教育.png */,
+				F1316E5F9A398F8485E939A5 /* n_湖南卫视.png */,
+				27C9C90E25132CFCB1A768FD /* n_湖南卫视4K.png */,
+				1BD16325EC71AA9938C4B57C /* n_湖南娱乐.png */,
+				5B4CA4C790A76A54A1F84A4A /* n_怀旧剧场.png */,
+				E7D87CC30D15009EAD667A97 /* n_环球旅游.png */,
+				0BAFA70791475A0A2BAA0B8A /* n_吉林卫视.png */,
+				05CE0D33631CA820B52DA5C6 /* n_江苏卫视.png */,
+				7B3CAB5AA6DA780CDE91E777 /* n_江西卫视.png */,
+				ED846801C75DC4219A67C633 /* n_江西新闻.png */,
+				776F8FDA6B912AFCD4AEC656 /* n_金鹰纪实.png */,
+				4C04C4FF9171C8120320AAC9 /* n_金鹰卡通.png */,
+				D0D007D90405EB0E0EA6A5FC /* n_卡酷少儿.png */,
+				89EE3880E77698465CACFC20 /* n_快乐垂钓.png */,
+				7AD62C079E165BD8E3FBC231 /* n_梨园.png */,
+				AA8DE9B996868A6D800E9FF1 /* n_辽宁卫视.png */,
+				B9B7A4CE1689E73BCE7F823D /* n_内蒙古卫视.png */,
+				402FB9F65B7534CFE37F5F31 /* n_宁夏卫视.png */,
+				5EE51BD0BFDF00F1FFB457CC /* n_农林卫视.png */,
+				93607A6853EA8E72FCFE26E5 /* n_青海卫视.png */,
+				319625A77CF6EC2F5BE5523A /* n_三沙卫视.png */,
+				792C28869D8336AF7974F6F2 /* n_山东教育.png */,
+				BCA09DC1AE7350800BF0559F /* n_山东卫视.png */,
+				E4B533646746232F2076AAB3 /* n_山西卫视.png */,
+				B50D5DD37CD0620AE8179331 /* n_陕西都市青春.png */,
+				9BAE5EBBBDE3AC909B4D755D /* n_陕西体育休闲.png */,
+				21EC3B48B092979DB65E0C7E /* n_陕西卫视.png */,
+				6DA129F6D921588D6FB55DBC /* n_陕西新闻资讯.png */,
+				8AFE29E53FA1F6A63E947E0B /* n_深圳卫视.png */,
+				46E683DD37415AFE6D851BB5 /* n_深圳卫视4K.png */,
+				345F8E8DBA7E4AF312D64755 /* n_四川卫视.png */,
+				FA5C950FB524F1B2174CBBA3 /* n_四海钓鱼.png */,
+				6D32C7FCAD6F64CC31A289DA /* n_天津卫视.png */,
+				880AC00662C9C87AACCACEB5 /* n_天元围棋.png */,
+				63C2B85353D0ABFA132FDD25 /* n_武术世界.png */,
+				6F5DAB71EC9836CCD63ECA3B /* n_新动漫.png */,
+				B477BD8E023B86B42F352487 /* n_新疆卫视.png */,
+				241D20112CF2D6B21D0E6FC2 /* n_云南卫视.png */,
+				687D30C64080C455F3FD330C /* n_浙江卫视.png */,
+				75CC4E411CF230F815807AB0 /* n_浙江卫视4K.png */,
+				685A7B4E947057ADC7F0A95A /* n_中国天气.png */,
+				56FDEBDD426E03ACC8B674C1 /* n_中华特产.png */,
+				A2582BA862FFCF212450573C /* n_中学生.png */,
+				BBA4835A992123F55402B297 /* n_重温经典.png */,
+				2640075A7780932F91879725 /* n_BTV财经.png */,
+				F1A427D8AAA35249F22307F6 /* n_BTV科教.png */,
+				402D9D63896BC4A65F9657D4 /* n_BTV生活.png */,
+				9DC04836498BE8ED3BFDE4BE /* n_BTV文艺.png */,
+				6CFC48615674B74F90F4D9A0 /* n_BTV新闻.png */,
+				FC5BAB437B8664B2E46AF60E /* n_BTV影视.png */,
+				B4352997788BF826D4B9DC1D /* n_CCTV3D.png */,
+				5F9659EEF2C9D9F328FFB606 /* n_CETV1.png */,
+				770F367189353B3D064C4893 /* n_CETV2.png */,
+				1D546B5BB490ABD4E461BF57 /* n_CETV4.png */,
+				D7735051BC4DE6DB14836CC7 /* n_CHC动作电影.png */,
+				52713F6051491CF57A22DF1B /* n_CHC家庭影院.png */,
+				D697D2871817C68B6AF02711 /* n_CHC影迷电影.png */,
+				E85BF30C040821B6B786D46E /* n_IPTV怀旧剧场.png */,
+			);
+			path = ChannelLogos;
+			sourceTree = "<group>";
+		};
+		4C0CF4A72C627371F1F57053 /* CarPlay */ = {
+			isa = PBXGroup;
+			children = (
+				CB1400000000000000000002 /* CarPlayBrowserEngine.swift */,
+				CB1500000000000000000002 /* CarPlayPinyinEngine.swift */,
+				D50000000000000000000011 /* CarPlayContinuousHorizontalScroller.swift */,
+				770EEBF0767782F5807DF30E /* CarPlaySceneDelegate.swift */,
+				2724C28FE2A15E0613712062 /* ExternalDisplaySceneDelegate.swift */,
+			);
+			path = CarPlay;
+			sourceTree = "<group>";
+		};
+		6AA024B1029C63F2466018E8 = {
+			isa = PBXGroup;
+			children = (
+				C73000000000000000000003 /* RovePlayer.xcconfig */,
+				D6E62A8F95928E6F91895F7C /* MediaDeck */,
+				6DC302FAEEBF240A3E003A59 /* MediaDeckTests */,
+				E4A7D08D675D538FD584F6FC /* Products */,
+				027C901ADCB9F3DB46828855 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C35925B264C6D210D2B9389 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2E1823E7CEFCB11A1A72A4E6 /* AppDelegate.swift */,
+				D90000000000000000000002 /* DuoPlayerAdaptation.swift */,
+				BF0ACBA75F1D546E2DB4DFA2 /* RoadStreamApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6DC302FAEEBF240A3E003A59 /* MediaDeckTests */ = {
+			isa = PBXGroup;
+			children = (
+				398EA122A41C1C62680138CA /* M3UParserTests.swift */,
+			);
+			path = MediaDeckTests;
+			sourceTree = "<group>";
+		};
+		AD2B7C3802D596A2FA4F67E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D1A000000000000000000004 /* DJHUBModels.swift */,
+				4D79EFC3105D1485E06EF49D /* Channel.swift */,
+				A100000000000000000012 /* WatchChannelPayload.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D6E62A8F95928E6F91895F7C /* MediaDeck */ = {
+			isa = PBXGroup;
+			children = (
+				5BD6CD269DA7059121E253FF /* Assets.xcassets */,
+				44FB3B0FCC869B80CC4C7DD5 /* Info.plist */,
+				C0285B89A6CA6F4CCC93B9D8 /* RoadStream.AudioOnly.entitlements */,
+				3BC1975674A38A4030BBE450 /* MediaDeck.entitlements */,
+				0D8A4527BBE7E1EABF59E4DA /* RoadStream.Store.entitlements */,
+				625092C81459FB04E9EA9679 /* RoadStream.VideoOnly.entitlements */,
+				6C35925B264C6D210D2B9389 /* App */,
+				4C0CF4A72C627371F1F57053 /* CarPlay */,
+				AD2B7C3802D596A2FA4F67E4 /* Models */,
+				DF9D04C512A5614C4163BE2C /* Resources */,
+				18245E72513806FD57E9F2DF /* Services */,
+				DD3593FB544F5C067E2CBF8B /* Views */,
+			);
+			path = MediaDeck;
+			sourceTree = "<group>";
+		};
+		DD3593FB544F5C067E2CBF8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0A1B2C3D4E5F60718293A02 /* AppSuccessFeedbackOverlay.swift */,
+				CD1000000000000000000002 /* NativeCloudDriveSupport.swift */,
+				DA7100000000000000000002 /* WebDAVView.swift */,
+				CD1000000000000000000004 /* Pan123DriveView.swift */,
+				CD1000000000000000000006 /* Cloud139DriveView.swift */,
+				CD1000000000000000000008 /* Cloud189DriveView.swift */,
+				CD1000000000000000000010 /* LanzouDriveView.swift */,
+				CD0000000000000000000004 /* AliyunDriveView.swift */,
+				CD0000000000000000000006 /* QuarkDriveView.swift */,
+				CD0000000000000000000008 /* Pan115DriveView.swift */,
+				D3000000000000000000002 /* ThunderDriveView.swift */,
+				D3100000000000000000002 /* GuangYaDriveView.swift */,
+				GD0000000000000000000002 /* GoogleDriveView.swift */,
+				F31000000000000000000004 /* FeiniuMusicView.swift */,
+				BD0000000000000000000002 /* BaiduNetdiskView.swift */,
+				BA1000000000000000000002 /* BaiduMusicView.swift */,
+				CD0000000000000000000002 /* CloudDriveConnectionsView.swift */,
+				D200000000000000000002 /* DirectLinkLibraryView.swift */,
+				A400000000000000000002 /* LocalVideoLibraryView.swift */,
+				2B62BC2EB9CB86C808A66D32 /* ChannelCard.swift */,
+				EC5D040F5E6049244915024B /* ChannelListView.swift */,
+				030CB16F387326006C32BB57 /* FavoritesView.swift */,
+				6CE7CD90241AE08646D23B7D /* LiveChannelPreview.swift */,
+				0E7B4C91A52D4D31A125A002 /* LiveVideoSurface.swift */,
+				67CD41F08EACFAF725A61BD1 /* NowPlayingView.swift */,
+				4F209A773C38621894EBDBC1 /* PlayerDetailView.swift */,
+				E81000000000000000000002 /* RoveDanmakuCanvasView.swift */,
+				E81000000000000000000004 /* RoveLaunchCoverView.swift */,
+				F596C4D00D4F011745F4170B /* PlaylistURLImportView.swift */,
+				D100000000000000000004 /* ProxySettingsView.swift */,
+				A300000000000000000004 /* ProView.swift */,
+				1C52F904F63011C792E953F1 /* RootView.swift */,
+				BB22ABB14038024D4EE96DA0 /* SettingsView.swift */,
+				D2E06B10DA073953579C896E /* SourceCenterView.swift */,
+				B5B44CE345F929402A7CD8DC /* MediaDeckShell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF9D04C512A5614C4163BE2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1A000000000000000000006 /* DJHUBPosters */,
+				E92000000000000000000002 /* RovePlayer新片入库推送配置教程.pdf */,
+				A500000000000000000003 /* Fonts */,
+				F10000000000000000000008 /* Localizable.strings */,
+				A300000000000000000005 /* TuboPro.storekit */,
+				21769107CBBF2A6839D6E7F2 /* SamplePlaylist.m3u */,
+				CB1500000000000000000004 /* CarPlayPinyin.tsv.gz */,
+				CB1500000000000000000006 /* CarPlayPinyin-NOTICE.txt */,
+				CB1500000000000000000008 /* CarPlayPinyin-LICENSE.txt */,
+				A9B8C7D6E5F4012345678903 /* APTVChannelLogos */,
+				4A802F33B17C411BBEA62786 /* ChannelLogos */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A500000000000000000003 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A500000000000000000002 /* ZCOOLQingKeHuangYou-Regular.ttf */,
+				A500000000000000000020 /* ZCOOLXiaoWei-Regular.ttf */,
+				A500000000000000000021 /* MaShanZheng-Regular.ttf */,
+				A500000000000000000022 /* ZhiMangXing-Regular.ttf */,
+				A500000000000000000023 /* LongCang-Regular.ttf */,
+				A500000000000000000024 /* ZCOOLKuaiLe-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E4A7D08D675D538FD584F6FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				905F3333D275AC5C622FB631 /* RovePlayer.app */,
+				CE0000000000000000000006 /* RoadStreamPacketTunnel.appex */,
+				A100000000000000000017 /* RoadStreamWatch.app */,
+				968D4E0571FE64CE14A70F33 /* RovePlayerTests.xctest */,
+				099997E440B6C131E58BB178 /* RoadStreamBroadcastUpload.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D010C2F163BEC9A6C6C371E /* RovePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6CB6090714D80E086FF605 /* Build configuration list for PBXNativeTarget "RovePlayer" */;
+			buildPhases = (
+				C6FEC882EE050AD1065A54C3 /* Sources */,
+				A200000000000000000002 /* Frameworks */,
+				4D2AFCC914DE0464B47716F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RovePlayer;
+			packageProductDependencies = (
+			);
+			productName = RovePlayer;
+			productReference = 905F3333D275AC5C622FB631 /* RovePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC31163EA42A7184AD6E36E9 /* RovePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CB4236E5E1CF14109F5FD2 /* Build configuration list for PBXNativeTarget "RovePlayerTests" */;
+			buildPhases = (
+				5D0079D3F64088DEAB51BC23 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB67BABCBA9AA6BEFE50E21C /* PBXTargetDependency */,
+			);
+			name = RovePlayerTests;
+			productName = RovePlayerTests;
+			productReference = 968D4E0571FE64CE14A70F33 /* RovePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		334103D87626B008E106BBE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					9D010C2F163BEC9A6C6C371E = {
+						CreatedOnToolsVersion = 27.0;
+						ProvisioningStyle = Automatic;
+					};
+					CC31163EA42A7184AD6E36E9 = {
+						CreatedOnToolsVersion = 27.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D010C2F163BEC9A6C6C371E;
+					};
+				};
+			};
+			buildConfigurationList = 6B18AEC3EA7DE48D34D912FE /* Build configuration list for PBXProject "RovePlayer" */;
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ar,
+				bn,
+				ca,
+				cs,
+				da,
+				de,
+				el,
+				en,
+				"en-AU",
+				"en-CA",
+				"en-GB",
+				es,
+				"es-MX",
+				fi,
+				fr,
+				"fr-CA",
+				gu,
+				he,
+				hi,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				kn,
+				ko,
+				ml,
+				mr,
+				ms,
+				nl,
+				no,
+				or,
+				pa,
+				pl,
+				"pt-BR",
+				"pt-PT",
+				ro,
+				ru,
+				sk,
+				sl,
+				sv,
+				ta,
+				te,
+				th,
+				tr,
+				uk,
+				ur,
+				vi,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 6AA024B1029C63F2466018E8;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E4A7D08D675D538FD584F6FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D010C2F163BEC9A6C6C371E /* RovePlayer */,
+				CC31163EA42A7184AD6E36E9 /* RovePlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D2AFCC914DE0464B47716F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A000000000000000000005 /* DJHUBPosters in Resources */,
+				A500000000000000000001 /* ZCOOLQingKeHuangYou-Regular.ttf in Resources */,
+				A500000000000000000010 /* ZCOOLXiaoWei-Regular.ttf in Resources */,
+				A500000000000000000011 /* MaShanZheng-Regular.ttf in Resources */,
+				A500000000000000000012 /* ZhiMangXing-Regular.ttf in Resources */,
+				A500000000000000000013 /* LongCang-Regular.ttf in Resources */,
+				A500000000000000000014 /* ZCOOLKuaiLe-Regular.ttf in Resources */,
+				74B56CAD09ADF3A25602ED97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D0079D3F64088DEAB51BC23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AB586DA60BBF3D8F7A7F24 /* M3UParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FEC882EE050AD1065A54C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A000000000000000000001 /* DJHUBAPIClient.swift in Sources */,
+				D1A000000000000000000003 /* DJHUBModels.swift in Sources */,
+				E0341AF130DB26873B7E6A77 /* Channel.swift in Sources */,
+				C74000000000000000000001 /* RoveBadgeLibrary.swift in Sources */,
+				4BC25462143052C6C4D693B8 /* ChannelLibrary.swift in Sources */,
+				B017DF6037361A87FB318BC6 /* ChannelLogoProvider.swift in Sources */,
+				E81000000000000000000003 /* RoveLaunchCoverView.swift in Sources */,
+				D90000000000000000000001 /* DuoPlayerAdaptation.swift in Sources */,
+				025C3FE27EADD980EB5C62B1 /* RoadStreamApp.swift in Sources */,
+				62F8A8497FCEC572F16E98CE /* RootView.swift in Sources */,
+				81E45DB40F852FF1B381AF10 /* MediaDeckShell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB67BABCBA9AA6BEFE50E21C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MediaDeck;
+			target = 9D010C2F163BEC9A6C6C371E /* RovePlayer */;
+			targetProxy = 319783B21DB41D88560911D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F10000000000000000000008 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10000000000000000000002 /* zh-Hans */,
+				F10000000000000000000003 /* zh-Hant */,
+				F10000000000000000000004 /* English */,
+				F10000000000000000000005 /* Japanese */,
+				F10000000000000000000006 /* Turkish */,
+				F10000000000000000000007 /* Vietnamese */,
+				F20000000000000000000001 /* ar */,
+				F20000000000000000000002 /* bn */,
+				F20000000000000000000003 /* ca */,
+				F20000000000000000000004 /* cs */,
+				F20000000000000000000005 /* da */,
+				F20000000000000000000006 /* de */,
+				F20000000000000000000007 /* el */,
+				F20000000000000000000008 /* en-AU */,
+				F20000000000000000000009 /* en-CA */,
+				F2000000000000000000000A /* en-GB */,
+				F2000000000000000000000B /* es */,
+				F2000000000000000000000C /* es-MX */,
+				F2000000000000000000000D /* fi */,
+				F2000000000000000000000E /* fr */,
+				F2000000000000000000000F /* fr-CA */,
+				F20000000000000000000010 /* gu */,
+				F20000000000000000000011 /* he */,
+				F20000000000000000000012 /* hi */,
+				F20000000000000000000013 /* hr */,
+				F20000000000000000000014 /* hu */,
+				F20000000000000000000015 /* id */,
+				F20000000000000000000016 /* it */,
+				F20000000000000000000017 /* kn */,
+				F20000000000000000000018 /* ko */,
+				F20000000000000000000019 /* ml */,
+				F2000000000000000000001A /* mr */,
+				F2000000000000000000001B /* ms */,
+				F2000000000000000000001C /* nl */,
+				F2000000000000000000001D /* no */,
+				F2000000000000000000001E /* or */,
+				F2000000000000000000001F /* pa */,
+				F20000000000000000000020 /* pl */,
+				F20000000000000000000021 /* pt-BR */,
+				F20000000000000000000022 /* pt-PT */,
+				F20000000000000000000023 /* ro */,
+				F20000000000000000000024 /* ru */,
+				F20000000000000000000025 /* sk */,
+				F20000000000000000000026 /* sl */,
+				F20000000000000000000027 /* sv */,
+				F20000000000000000000028 /* ta */,
+				F20000000000000000000029 /* te */,
+				F2000000000000000000002A /* th */,
+				F2000000000000000000002B /* uk */,
+				F2000000000000000000002C /* ur */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		321280B266CAB4844EA91A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djhub.appname.tests;
+				PRODUCT_MODULE_NAME = RovePlayerTests;
+				PRODUCT_NAME = RovePlayerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RovePlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RovePlayer";
+			};
+			name = Release;
+		};
+		44D435E6887067F9DBEF44D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 80;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U65HJJJM84;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 2.0.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = RovePlayer;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		4F26F0F7517988464FA1D3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73000000000000000000003 /* RovePlayer.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = DJHUB;
+				APP_URL_SCHEME = roveplayer;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = MediaDeck/MediaDeck.entitlements;
+				CURRENT_PROJECT_VERSION = 31;
+				GENERATE_INFOPLIST_FILE = YES;
+				GOOGLE_DRIVE_OAUTH_CALLBACK_SCHEME = "com.googleusercontent.apps.615336711279-9sri3mig8lki18l6690mjtnev2mr9esh";
+				GOOGLE_DRIVE_OAUTH_CLIENT_ID = "615336711279-9sri3mig8lki18l6690mjtnev2mr9esh.apps.googleusercontent.com";
+				INFOPLIST_FILE = MediaDeck/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
+				INFOPLIST_KEY_CFBundleName = DJHUB;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djhub.appname;
+				PRODUCT_MODULE_NAME = DJHUB;
+				PRODUCT_NAME = DJHUB;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DJHUB_METADATA_ONLY;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86AAB1DB0CEBD256D4142AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73000000000000000000003 /* RovePlayer.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = DJHUB;
+				APP_URL_SCHEME = roveplayer;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = MediaDeck/MediaDeck.entitlements;
+				CURRENT_PROJECT_VERSION = 31;
+				GENERATE_INFOPLIST_FILE = YES;
+				GOOGLE_DRIVE_OAUTH_CALLBACK_SCHEME = "com.googleusercontent.apps.615336711279-9sri3mig8lki18l6690mjtnev2mr9esh";
+				GOOGLE_DRIVE_OAUTH_CLIENT_ID = "615336711279-9sri3mig8lki18l6690mjtnev2mr9esh.apps.googleusercontent.com";
+				INFOPLIST_FILE = MediaDeck/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
+				INFOPLIST_KEY_CFBundleName = DJHUB;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djhub.appname;
+				PRODUCT_MODULE_NAME = DJHUB;
+				PRODUCT_NAME = DJHUB;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG DJHUB_METADATA_ONLY";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92AD2E72CA61A57AEED9A534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 38;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U65HJJJM84;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.8;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = RovePlayer;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		B37000000000000000000001 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 106;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U65HJJJM84;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = RovePlayer;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = BETA;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Beta;
+		};
+		B37000000000000000000002 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73000000000000000000003 /* RovePlayer.xcconfig */;
+			buildSettings = {
+				APP_DISPLAY_NAME = DJHUB;
+				APP_URL_SCHEME = roveplayer;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = MediaDeck/MediaDeck.entitlements;
+				CURRENT_PROJECT_VERSION = 31;
+				GENERATE_INFOPLIST_FILE = YES;
+				GOOGLE_DRIVE_OAUTH_CALLBACK_SCHEME = "com.googleusercontent.apps.615336711279-1g1edo2hh5k6h81sjkuv0h2qsrrriveg";
+				GOOGLE_DRIVE_OAUTH_CLIENT_ID = "615336711279-1g1edo2hh5k6h81sjkuv0h2qsrrriveg.apps.googleusercontent.com";
+				INFOPLIST_FILE = MediaDeck/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
+				INFOPLIST_KEY_CFBundleName = DJHUB;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djhub.appname;
+				PRODUCT_MODULE_NAME = DJHUB;
+				PRODUCT_NAME = DJHUB;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "BETA DJHUB_METADATA_ONLY";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Beta;
+		};
+		B37000000000000000000004 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djhub.appname.tests;
+				PRODUCT_MODULE_NAME = RovePlayerTests;
+				PRODUCT_NAME = RovePlayerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RovePlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RovePlayer";
+			};
+			name = Beta;
+		};
+		F234D9F5C47CD831A4CB1631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djhub.appname.tests;
+				PRODUCT_MODULE_NAME = RovePlayerTests;
+				PRODUCT_NAME = RovePlayerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RovePlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RovePlayer";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B18AEC3EA7DE48D34D912FE /* Build configuration list for PBXProject "RovePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AD2E72CA61A57AEED9A534 /* Debug */,
+				44D435E6887067F9DBEF44D1 /* Release */,
+				B37000000000000000000001 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E3CB4236E5E1CF14109F5FD2 /* Build configuration list for PBXNativeTarget "RovePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F234D9F5C47CD831A4CB1631 /* Debug */,
+				321280B266CAB4844EA91A82 /* Release */,
+				B37000000000000000000004 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FD6CB6090714D80E086FF605 /* Build configuration list for PBXNativeTarget "RovePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AAB1DB0CEBD256D4142AEC /* Debug */,
+				4F26F0F7517988464FA1D3DF /* Release */,
+				B37000000000000000000002 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 334103D87626B008E106BBE8 /* Project object */;
+}

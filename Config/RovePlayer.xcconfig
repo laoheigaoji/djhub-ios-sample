@@ -1,0 +1,5 @@
+TRAKT_CLIENT_ID =
+TRAKT_CLIENT_SECRET =
+SIMKL_CLIENT_ID = b1cb1139af6280d5f786dee9cc177059fb2718f977febba9753a9bb111d8842d
+
+#include? "TraktSecrets.xcconfig"

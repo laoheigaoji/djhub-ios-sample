@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>DJHUB</string>
+	<key>CFBundleName</key>
+	<string>DJHUB</string>
+	<key>DJHUBAPIKey</key>
+	<string>duandb_demo_2026</string>
+	<key>NSAppTransportSecurity</key>
+	<dict/>
+	<key>TMDBAPIKey</key>
+	<string>bd37a46bc9afa32e12927e904ef33b53</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ZCOOLQingKeHuangYou-Regular.ttf</string>
+		<string>ZCOOLXiaoWei-Regular.ttf</string>
+		<string>MaShanZheng-Regular.ttf</string>
+		<string>ZhiMangXing-Regular.ttf</string>
+		<string>LongCang-Regular.ttf</string>
+		<string>ZCOOLKuaiLe-Regular.ttf</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchBackground</string>
+		<key>UIImageName</key>
+		<string>MediaDeckBrandMark</string>
+		<key>UIImageRespectsSafeAreaInsets</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

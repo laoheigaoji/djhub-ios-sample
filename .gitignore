@@ -1,0 +1,11 @@
+.DS_Store
+
+# Xcode user state and generated products
+xcuserdata/
+DerivedData/
+*.xcarchive
+*.ipa
+build/
+
+# Local credentials
+Config/TraktSecrets.xcconfig
